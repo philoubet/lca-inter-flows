@@ -27,6 +27,7 @@ A Python toolkit and Jupyter notebook for analyzing intermediate and elementary 
 git clone https://github.com/philoubet/lca-inter-flows.git
 cd lca-inter-flows
 pip install brightway2 pandas matplotlib jupyter
+```
 
 # Run the analysis script (optional)
 python main/intermediate_flows.py
