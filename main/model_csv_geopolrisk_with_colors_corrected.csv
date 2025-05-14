@@ -1,0 +1,100 @@
+comp1;comp2;Substance;Color;Supplyrisk;Unit
+Raw;in ground;Aluminium;#bcbd22;0.036036796;kgCu eq/kg
+Raw;in ground;Anhydrite;#1f77b4;0.000444205;kgCu eq/kg
+Raw;in ground;Antimony;#e377c2;9.529888018;kgCu eq/kg
+Raw;in ground;Arsenic;#f7b6d2;18.74940458;kgCu eq/kg
+Raw;in ground;Barium;#7f7f7f;0.058974661;kgCu eq/kg
+Raw;in ground;Basalt;#ff7f0e;0;kgCu eq/kg
+Raw;in ground;Beryllium;#ffbb78;0;kgCu eq/kg
+Raw;in ground;Borax;#c7c7c7;39.89849671;kgCu eq/kg
+Raw;in ground;Boron;#bcbd22;39.89849671;kgCu eq/kg
+Raw;in ground;Cadmium;#dbdb8d;1.677925982;kgCu eq/kg
+Raw;in ground;Calcite;#17becf;0;kgCu eq/kg
+Raw;in ground;Calcium;#d62728;0;kgCu eq/kg
+Raw;in ground;Carbon, organic, in soil or biomass stock;#9edae5;0;kgCu eq/kg
+Raw;in ground;Cerium;#1f77b4;4.120059645;kgCu eq/kg
+Raw;in ground;Chromium;#f7b6d2;0.126085676;kgCu eq/kg
+Raw;in ground;Chrysotile;#aec7e8;0;kgCu eq/kg
+Raw;in ground;Clay, bentonite;#aec7e8;0;kgCu eq/kg
+Raw;in ground;Clay, unspecified;#ff7f0e;0;kgCu eq/kg
+Raw;in ground;Coal, brown;#4D4D4D;0.141842741;kgCu eq/kg
+Raw;in ground;Coal, hard;#4D4D4D;0.141842741;kgCu eq/kg
+Raw;in ground;Cobalt;#ff9896;23.16269162;kgCu eq/kg
+Raw;in ground;Copper;#9467bd;0.166182111;kgCu eq/kg
+Raw;in ground;Diatomite;#2ca02c;0;kgCu eq/kg
+Raw;in ground;Dolomite;#8c564b;0;kgCu eq/kg
+Raw;in ground;Dysprosium;#98df8a;4.120059645;kgCu eq/kg
+Raw;in ground;Europium;#d62728;4.120059645;kgCu eq/kg
+Raw;in ground;Feldspar;#e377c2;0.003194619;kgCu eq/kg
+Raw;in ground;Fluorine;#ff9896;0;kgCu eq/kg
+Raw;in ground;Fluorspar;#c7c7c7;0.196811713;kgCu eq/kg
+Raw;in ground;Gadolinium;#9467bd;4.120059645;kgCu eq/kg
+Raw;in ground;Gallium;#c5b0d5;52.50135189;kgCu eq/kg
+Raw;in ground;Gangue;#8c564b;0;kgCu eq/kg
+Raw;in ground;Gold;#dbdb8d;1657.961448;kgCu eq/kg
+Raw;in ground;Granite;#c49c94;0;kgCu eq/kg
+Raw;in ground;Graphite;#17becf;0.664386297;kgCu eq/kg
+Raw;in ground;Gravel;#9edae5;0;kgCu eq/kg
+Raw;in ground;Gypsum;#1f77b4;0.000444205;kgCu eq/kg
+Raw;in ground;Hafnium;#e377c2;0;kgCu eq/kg
+Raw;in ground;Iron;#ffbb78;0.021764732;kgCu eq/kg
+Raw;in ground;Kaolinite;#2ca02c;0;kgCu eq/kg
+Raw;in ground;Kieserite;#f7b6d2;0;kgCu eq/kg
+Raw;in ground;Lanthanum;#7f7f7f;4.120059645;kgCu eq/kg
+Raw;in ground;Laterite;#98df8a;0;kgCu eq/kg
+Raw;in ground;Lead;#2ca02c;0.97382782;kgCu eq/kg
+Raw;in ground;Lithium;#A9CBA7;10.99819781;kgCu eq/kg
+Raw;in ground;Magnesite;#c5b0d5;0;kgCu eq/kg
+Raw;in ground;Magnesium;#9467bd;0.147989282;kgCu eq/kg
+Raw;in ground;Manganese;#7f7f7f;0.059712079;kgCu eq/kg
+Raw;in ground;Mercury;#8c564b;68.64944539;kgCu eq/kg
+Raw;in ground;Molybdenum;#c49c94;4.984153046;kgCu eq/kg
+Raw;in ground;Neodymium;#c7c7c7;4.120059645;kgCu eq/kg
+Raw;in water;Nickel;#c49c94;2.053130006;kgCu eq/kg
+Raw;in ground;Niobium;#bcbd22;1.775236181;kgCu eq/kg
+Raw;in ground;Oil, crude;#FFB570;0.094610429;kgCu eq/kg
+Raw;in ground;Olivine;#dbdb8d;0;kgCu eq/kg
+Raw;in ground;Palladium;#f7b6d2;11943.45902;kgCu eq/kg
+Raw;in ground;Perlite;#7f7f7f;0;kgCu eq/kg
+Raw;in ground;Phosphorus;#c7c7c7;0;kgCu eq/kg
+Raw;in ground;Platinum;#bcbd22;17989.47076;kgCu eq/kg
+Raw;in ground;Potassium;#dbdb8d;0;kgCu eq/kg
+Raw;in ground;Praseodymium;#17becf;4.120059645;kgCu eq/kg
+Raw;in ground;Pumice;#17becf;0;kgCu eq/kg
+Raw;in ground;Pyrite;#9edae5;0;kgCu eq/kg
+Raw;in ground;Rhenium;#1f77b4;21.61528295;kgCu eq/kg
+Raw;in ground;Rhodium;#9edae5;223807.4231;kgCu eq/kg
+Raw;in ground;Samarium;#aec7e8;4.120059645;kgCu eq/kg
+Raw;in ground;Sand, unspecified;#ff7f0e;0;kgCu eq/kg
+Raw;in ground;Scandium;#ffbb78;4.120059645;kgCu eq/kg
+Raw;in ground;Selenium;#2ca02c;4.195427718;kgCu eq/kg
+Raw;in ground;Shale;#98df8a;0;kgCu eq/kg
+Raw;in ground;Silicon;#98df8a;0;kgCu eq/kg
+Raw;in ground;Silver;#1f77b4;1.849632791;kgCu eq/kg
+Raw;in ground;Sodium;#d62728;0;kgCu eq/kg
+Raw;in ground;Sodium chloride;#d62728;0;kgCu eq/kg
+Raw;in ground;Sodium nitrate;#ff9896;0;kgCu eq/kg
+Raw;in ground;Sodium sulphate, various forms;#9467bd;0;kgCu eq/kg
+Raw;in ground;Spodumene;#aec7e8;0;kgCu eq/kg
+Raw;in ground;Steatite;#ff7f0e;0;kgCu eq/kg
+Raw;in ground;Strontium;#ffbb78;0;kgCu eq/kg
+Raw;in ground;Sulfur;#2ca02c;0;kgCu eq/kg
+Raw;in ground;Sylvite;#c5b0d5;0;kgCu eq/kg
+Raw;in ground;Talc;#8c564b;0;kgCu eq/kg
+Raw;in ground;Tellurium;#c49c94;74.37087711;kgCu eq/kg
+Raw;in ground;Terbium;#e377c2;4.120059645;kgCu eq/kg
+Raw;in ground;Tin;#d62728;3.539735693;kgCu eq/kg
+Raw;in ground;Titanium;#ff7f0e;0.112332374;kgCu eq/kg
+Raw;in ground;Tungsten;#ff9896;2.087006078;kgCu eq/kg
+Raw;in ground;Ulexite;#f7b6d2;0;kgCu eq/kg
+Raw;in ground;Uranium;#9467bd;33.35326422;kgCu eq/kg
+Raw;in ground;Vanadium;#7f7f7f;1.025418121;kgCu eq/kg
+Raw;in ground;Vermiculite;#c5b0d5;0;kgCu eq/kg
+Raw;in ground;Yttrium;#c7c7c7;4.120059645;kgCu eq/kg
+Raw;in ground;Zinc;#8c564b;0.251867397;kgCu eq/kg
+Raw;in ground;Zirconium;#c49c94;0.586866818;kgCu eq/kg
+Raw;in ground;Gas, natural;#FFE680;0.169454121;kgCu eq/kg
+Raw;in ground;Indium;#bcbd22;25.8404528;kgCu eq/kg
+Raw;in air;Germanium;#dbdb8d;9.602169725;kgCu eq/kg
+Raw;in ground;Tantalum;#98df8a;0.38486545;kgCu eq/kg
+Raw;in ground;Asbestos;#17becf;8.383876748;kgCu eq/kg
