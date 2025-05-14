@@ -29,10 +29,10 @@ cd lca-inter-flows
 pip install brightway2 pandas matplotlib jupyter
 ```
 
-# Run the analysis script (optional)
+## Run the analysis script (optional)
 python main/intermediate_flows.py
 
-# Open the interactive notebook
+## Open the interactive notebook
 jupyter notebook intermediate_flows_notebook.ipynb
 In the notebook, set database index and filter keyword in the first cells.
 Run each cell to produce scatter and contribution charts.
