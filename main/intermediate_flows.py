@@ -6,6 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as mcolors
+import sys
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -18,9 +19,9 @@ CONFIG = {
     "matched_csv": "processed_b_public_with_percentages.csv",
     "risk_csv": "model_csv_geopolrisk_with_colors_corrected.csv",
     
-    "filter_keyword": "market for battery,",
+    "filter_keyword": "market",    #"market for battery,"
     
-    "sample_size": 50,
+    "sample_size": 1000,
     
     "fossil_resources": [
     'Coal, brown', 'Coal, hard', 'Gas, natural', 'Shale', 'Oil, crude',
@@ -89,16 +90,26 @@ def compute_lca_flows(db_name, activities):
             and key in activity_meta[db_name]
             for meta in [activity_meta[db_name][key]]
         ]
-        df_i = (
-            pd.DataFrame(rows_i)
-              .merge(supply_risk_factors_int, on=['Activity','Product','Geography'], how='inner')
-              .assign(
-                  risky_int_mass=lambda df: df['Supply_Amount'].where(df['Supplyrisk'] > 0, 0),
-                  risk_int=lambda df: df['Supplyrisk'] * df['Supply_Amount'],
-                  Category=lambda df: df['Product'].map(classify),
-              )
-        )
-
+        
+        
+        
+        if not rows_i:
+            logger.info(f"No intermediate flows for activity {func_str}; skipping merge.")
+            df_i = pd.DataFrame(columns=[
+                'Activity', 'Product', 'Geography', 'Supply_Amount',
+                'Color', 'Supplyrisk',
+                'risky_int_mass', 'risk_int', 'Category'
+            ])
+        else:
+            df_i = (
+                pd.DataFrame(rows_i)
+                  .merge(supply_risk_factors_int, on=['Activity','Product','Geography'], how='inner')
+                  .assign(
+                      risky_int_mass=lambda df: df['Supply_Amount'].where(df['Supplyrisk'] > 0, 0),
+                      risk_int=lambda df: df['Supplyrisk'] * df['Supply_Amount'],
+                      Category=lambda df: df['Product'].map(classify),
+                  )
+            )
         # --- Elementary flows ---
         sums = lca.inventory.sum(axis=1).A1
         rows_e = [
@@ -108,15 +119,24 @@ def compute_lca_flows(db_name, activities):
             and key in bios_meta
             and (bm := bios_meta[key])['type'] == 'natural resource'
         ]
-        df_e = (
-            pd.DataFrame(rows_e)
-              .merge(supply_risk_factors_elem, on='Substance', how='inner')
-              .assign(
-                  risky_elem_mass=lambda df: df['Mass'].where(df['Supplyrisk'] > 0, 0),
-                  risk_elem=lambda df: df['Supplyrisk'] * df['Mass'],
-                  Category=lambda df: df['Substance'].map(classify),
-              )
-        )
+        if not rows_e:
+            logger.info(f"No elementary flows for activity {func_str}; skipping merge.")
+            # create an “empty” df_e with the right columns so downstream code won’t break
+            df_e = pd.DataFrame(columns=[
+                'Substance', 'Mass', 'Color', 'Supplyrisk',
+                'risky_elem_mass', 'risk_elem', 'Category'
+            ])
+        else:
+            df_e = (
+                pd.DataFrame(rows_e)
+                  .merge(supply_risk_factors_elem, on='Substance', how='inner')
+                  .assign(
+                      risky_elem_mass=lambda df: df['Mass'].where(df['Supplyrisk'] > 0, 0),
+                      risk_elem=lambda df: df['Supplyrisk'] * df['Mass'],
+                      Category=lambda df: df['Substance'].map(classify),
+                  )
+            )
+
 
         records.append((func_str, df_i, df_e))
 
@@ -309,6 +329,9 @@ def plot_activity_contributions(records, top_n=5, max_activities=None, dpi=300):
 if __name__ == "__main__":
 
     activities = get_filtered_activities(CONFIG['databases'][0])
+    if not activities:
+        logger.error(f"No activities found matching “{CONFIG['filter_keyword']}”.  Exiting.")
+        sys.exit(1)
     all_results = {}
     
     for db in CONFIG['databases']:
@@ -323,22 +346,32 @@ if __name__ == "__main__":
             for cat in ['fossil', 'metal']
         }
     
-    # Plot each category
     for db, cats in all_results.items():
         for cat, df in cats.items():
-            plot_scatter(
-                df,
-                'risky_int_mass', 'risky_elem_mass',
-                'mass - intermediate (kg/kg)',
-                'mass - elementary (kg/kg)',
-                f'Mass (with risk) - {cat} – {db}'
-            )
-            plot_scatter(
-                df,
-                'risk_int', 'risk_elem',
-                'risk - intermediate (kg Cu eq/kg)',
-                'risk - elementary (kg Cu eq/kg)',
-                f'Supply risk - {cat} – {db}'
-            )
-            
+            # MASS plot: remove rows where both risky_int_mass and risky_elem_mass are zero
+            df_mass = df.loc[~((df['risky_int_mass'] == 0) & (df['risky_elem_mass'] == 0))]
+            if not df_mass.empty:
+                plot_scatter(
+                    df_mass,
+                    'risky_int_mass', 'risky_elem_mass',
+                    'mass - intermediate (kg/kg)',
+                    'mass - elementary (kg/kg)',
+                    f'Mass (with risk) - {cat} – {db}'
+                )
+            else:
+                logger.info(f"All mass data zero for {cat} – {db}, skipping mass plot.")
+    
+            # RISK plot: remove rows where both risk_int and risk_elem are zero
+            df_risk = df.loc[~((df['risk_int'] == 0) & (df['risk_elem'] == 0))]
+            if not df_risk.empty:
+                plot_scatter(
+                    df_risk,
+                    'risk_int', 'risk_elem',
+                    'risk - intermediate (kg Cu eq/kg)',
+                    'risk - elementary (kg Cu eq/kg)',
+                    f'Supply risk - {cat} – {db}'
+                )
+            else:
+                logger.info(f"All risk data zero for {cat} – {db}, skipping risk plot.")
+
     plot_activity_contributions(rec, top_n=5, max_activities=5, dpi=300)
