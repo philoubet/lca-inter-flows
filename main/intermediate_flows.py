@@ -19,7 +19,7 @@ CONFIG = {
     "matched_csv": "processed_b_public_with_percentages.csv",
     "risk_csv": "model_csv_geopolrisk_with_colors_corrected.csv",
     
-    "filter_keyword": "market for battery",    #"market for battery,"
+    "filter_keyword": "heat and power co-generation, lignite",    #"market for battery,"
     
     "sample_size": 10,
     
