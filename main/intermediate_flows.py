@@ -19,9 +19,9 @@ CONFIG = {
     "matched_csv": "processed_b_public_with_percentages.csv",
     "risk_csv": "model_csv_geopolrisk_with_colors_corrected.csv",
     
-    "filter_keyword": "market",    #"market for battery,"
+    "filter_keyword": "heat and power co-generation, lignite",    #"market for battery,"
     
-    "sample_size": 1000,
+    "sample_size": 10,
     
     "fossil_resources": [
     'Coal, brown', 'Coal, hard', 'Gas, natural', 'Shale', 'Oil, crude',
