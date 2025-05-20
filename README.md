@@ -2,6 +2,8 @@
 # Intermediate Flows Analysis
 
 A Python toolkit and Jupyter notebook for analyzing intermediate and elementary flows of extractive resource use in life cycle assessment (LCA) projects, including supply‐risk calculation and resource category breakdowns.
+![image](https://github.com/user-attachments/assets/11db9cad-522f-4f3d-b1fb-68359cb6ab8c)
+
 
 ## Key Components
 
