@@ -14,10 +14,11 @@ logger = logging.getLogger(__name__)
 
 # --- Configuration ---
 CONFIG = {
+    "Country": "IT",
     "project": "intermediate_flows",
     "databases": ["ecoinvent-3.10-cutoff"],
-    "matched_csv": "processed_b_public_with_percentages.csv",
-    "risk_csv": "model_csv_geopolrisk_with_colors_corrected.csv",
+    "matched_csv": "processed_b_public_with_percentages_AK.csv",
+    "risk_csv": "model_csv_geopolrisk_with_colors_corrected_AK.csv",
     "filter_keyword": "market for battery",  # "market for battery,"
     "sample_size": 10,
     "fossil_resources": [
@@ -52,12 +53,15 @@ CONFIG = {
 projects.set_current(CONFIG["project"])
 matches_df = pd.read_csv(CONFIG["matched_csv"], delimiter=";")
 supply_risk_factors_elem = pd.read_csv(CONFIG["risk_csv"], delimiter=";")
+filtered_supply_risk_factors_elem = supply_risk_factors_elem[
+    supply_risk_factors_elem["Geography"] == CONFIG["Country"]
+]
 supply_risk_factors_int = (
     matches_df[
         ["Activity", "Product", "Geography", "Matched Substance", "Final_Percentage"]
     ]
     .merge(
-        supply_risk_factors_elem[["Color", "Substance", "Supplyrisk"]],
+        filtered_supply_risk_factors_elem[["Color", "Substance", "Supplyrisk"]],
         left_on="Matched Substance",
         right_on="Substance",
         how="left",
