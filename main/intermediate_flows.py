@@ -61,7 +61,7 @@ supply_risk_factors_int = (
         ["Activity", "Product", "Geography", "Matched Substance", "Final_Percentage"]
     ]
     .merge(
-        filtered_supply_risk_factors_elem[["Color", "Matched Substance", "Supplyrisk"]],
+        filtered_supply_risk_factors_elem[["Color", "Substance", "Supplyrisk"]],
         left_on="Matched Substance",
         right_on="Substance",
         how="left",

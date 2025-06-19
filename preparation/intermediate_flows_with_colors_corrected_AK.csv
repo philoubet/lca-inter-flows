@@ -1,31 +1,29 @@
 column;Activity;Product;Geography;Matched Substance;Color
-1747.0;cobalt production;ammonia, anhydrous, liquid;GLO;;#000000
-1748.0;cobalt production;ammonium sulfate;GLO;;#000000
-6037.0;gypsum quarry operation;anhydrite rock;CH;Gypsum;#1f77b4
-6039.0;gypsum quarry operation;anhydrite rock;RoW;Gypsum;#1f77b4
-6041.0;gypsum quarry operation;anhydrite rock;IN;Gypsum;#1f77b4
-6043.0;gypsum quarry operation;anhydrite rock;ZA;Gypsum;#1f77b4
+18848.0;stibnite mine operation and beneficiation;stibnite concentrate;CA-QC;Antimony;#000000
+18849.0;stibnite mine operation and beneficiation;stibnite concentrate;CN;Antimony;#000000
+18850.0;stibnite mine operation and beneficiation;stibnite concentrate;RoW;Antimony;#000000
 552.0;asbestos production, chrysotile type;asbestos, chrysotile type;GLO;Asbestos;#aec7e8
-607.0;barite production;barite;CA-QC;Baryte;#000000
-608.0;barite production;barite;RoW;Baryte;#000000
-609.0;barite production;barite;RER;Baryte;#000000
-16503.0;niobium mine operation and beneficiation, from pyrochlore ore;barite;BR;Baryte;#000000
-16506.0;niobium mine operation and beneficiation, from pyrochlore ore;barite;RoW;Baryte;#000000
+607.0;barite production;barite;CA-QC;Barium;#000000
+608.0;barite production;barite;RoW;Barium;#000000
+609.0;barite production;barite;RER;Barium;#000000
+16503.0;niobium mine operation and beneficiation, from pyrochlore ore;barite;BR;Barium;#000000
+16506.0;niobium mine operation and beneficiation, from pyrochlore ore;barite;RoW;Barium;#000000
 660.0;basalt quarry operation;basalt;RoW;Basalt;#ff7f0e
 661.0;basalt quarry operation;basalt;RER;Basalt;#ff7f0e
-724.0;bauxite mine operation;bauxite;GLO;Bauxite;#000000
-775.0;bentonite quarry operation;bentonite;DE;Bentonite;#000000
-776.0;bentonite quarry operation;bentonite;RoW;Bentonite;#000000
+724.0;bauxite mine operation;bauxite;GLO;Aluminium;#000000
+775.0;bentonite quarry operation;bentonite;DE;Clay, bentonite;#000000
+776.0;bentonite quarry operation;bentonite;RoW;Clay, bentonite;#000000
 794.0;beryllium hydroxide production;beryllium hydroxide;RoW;Beryllium;#ffbb78
 795.0;beryllium hydroxide production;beryllium hydroxide;US;Beryllium;#ffbb78
-23485.0;zinc mine operation;bulk lead-zinc concentrate;GLO;Lead;#2ca02c
-1001.0;burnt shale production;burnt shale;DE;Shale;#98df8a
-1003.0;burnt shale production;burnt shale;RoW;Shale;#98df8a
-1832.0;colemanite mine operation and beneficiation;calcium borates;RoW;Boron;#d62728
-1833.0;colemanite mine operation and beneficiation;calcium borates;TR;Boron;#d62728
+1832.0;colemanite mine operation and beneficiation;calcium borates;RoW;Borax;#d62728
+1833.0;colemanite mine operation and beneficiation;calcium borates;TR;Borax;#d62728
+18548.0;sodium borate mine operation and beneficiation;sodium borates;RoW;Boron;#d62728
+18549.0;sodium borate mine operation and beneficiation;sodium borates;US;Boron;#d62728
 1749.0;cobalt production;calcium carbonate, precipitated;GLO;Calcium;#d62728
-1421.0;chromite ore concentrate production;chromite ore concentrate;RoW;Chromite;#000000
-1422.0;chromite ore concentrate production;chromite ore concentrate;KZ;Chromite;#000000
+1421.0;chromite ore concentrate production;chromite ore concentrate;RoW;Chromium;#000000
+1422.0;chromite ore concentrate production;chromite ore concentrate;KZ;Chromium;#000000
+5556.0;ferrochromium production, high-carbon, 55% Cr;ferrochromium, high-carbon, 55% Cr;RoW;Chromium;#f7b6d2
+5557.0;ferrochromium production, high-carbon, 55% Cr;ferrochromium, high-carbon, 55% Cr;ZA;Chromium;#f7b6d2
 1476.0;clay pit operation;clay;CH;Clay, unspecified;#000000
 1477.0;clay pit operation;clay;RoW;Clay, unspecified;#000000
 1750.0;cobalt production;cobalt;GLO;Cobalt;#ff9896
@@ -33,8 +31,6 @@ column;Activity;Product;Geography;Matched Substance;Color
 1752.0;cobalt production;cobalt carbonate;GLO;Cobalt;#ff9896
 1753.0;cobalt production;cobalt hydroxide;GLO;Cobalt;#ff9896
 1754.0;cobalt production;cobalt oxide;GLO;Cobalt;#ff9896
-1771.0;cobwork production;cobwork;CH;;#000000
-1772.0;cobwork production;cobwork;RoW;;#000000
 1755.0;cobalt production;copper cake;GLO;Copper;#9467bd
 1756.0;cobalt production;copper concentrate, sulfide ore;GLO;Copper;#9467bd
 2090.0;copper mine operation and beneficiation, sulfide ore;copper concentrate, sulfide ore;AU;Copper;#9467bd
@@ -56,23 +52,11 @@ column;Activity;Product;Geography;Matched Substance;Color
 5945.0;gold mine operation and refining;copper, cathode;SE;Copper;#9467bd
 17631.0;platinum group metal mine operation, ore with high palladium content;copper, cathode;RU;Copper;#9467bd
 ;platinum group metal, extraction and refinery operations;copper, cathode;ZA;Copper;#9467bd
-17320.0;petroleum refinery operation;diesel;CH;Petroleum;#c5b0d5
+1760.0;cobalt production;electrolyte, copper-rich;GLO;Copper;#9467bd
 2359.0;dolomite production;dolomite;RoW;Dolomite;#8c564b
 2360.0;dolomite production;dolomite;RER;Dolomite;#8c564b
-1759.0;cobalt production;electricity, high voltage;GLO;;#000000
-17321.0;petroleum refinery operation;electricity, high voltage;CH;;#000000
-1002.0;burnt shale production;electricity, medium voltage;DE;;#000000
-1004.0;burnt shale production;electricity, medium voltage;RoW;;#000000
-1760.0;cobalt production;electrolyte, copper-rich;GLO;Copper;#9467bd
-1761.0;cobalt production;electrolyte, nickel-rich;GLO;Nickel;#c49c94
 5552.0;feldspar production;feldspar;RER;Feldspar;#e377c2
 5551.0;feldspar production;feldspar production;RoW;Feldspar;#e377c2
-5556.0;ferrochromium production, high-carbon, 55% Cr;ferrochromium, high-carbon, 55% Cr;RoW;Chromite;#f7b6d2
-5557.0;ferrochromium production, high-carbon, 55% Cr;ferrochromium, high-carbon, 55% Cr;ZA;Chromite;#f7b6d2
-5560.0;ferromanganese production, high-coal, 74.5% Mn;ferromanganese, high-coal, 74.5% Mn;RoW;Manganese;#7f7f7f
-5561.0;ferromanganese production, high-coal, 74.5% Mn;ferromanganese, high-coal, 74.5% Mn;RER;Manganese;#7f7f7f
-1762.0;cobalt production;ferronickel;GLO;Nickel;#c49c94
-5562.0;ferronickel production;ferronickel;GLO;Nickel;#c49c94
 5718.0;fluorspar production, 97% purity;fluorspar, 97% purity;GLO;Fluorspar;#c7c7c7
 5851.0;gallium, in Bayer liquor from aluminium production;gallium, in Bayer liquor from aluminium production;GLO;Gallium;#bcbd22
 5946.0;gold mine operation and refining;gold;SE;Gold;#dbdb8d
@@ -100,27 +84,16 @@ column;Activity;Product;Geography;Matched Substance;Color
 6001.0;gravel production, crushed;gravel, crushed;IN;Gravel;#9edae5
 5993.0;gravel and sand quarry operation;gravel, round;CH;Gravel;#9edae5
 5995.0;gravel and sand quarry operation;gravel, round;RoW;Gravel;#9edae5
+6037.0;gypsum quarry operation;anhydrite rock;CH;Anhydrite;#1f77b4
+6039.0;gypsum quarry operation;anhydrite rock;RoW;Anhydrite;#1f77b4
+6041.0;gypsum quarry operation;anhydrite rock;IN;Anhydrite;#1f77b4
+6043.0;gypsum quarry operation;anhydrite rock;ZA;Anhydrite;#1f77b4
 6038.0;gypsum quarry operation;gypsum, mineral;CH;Gypsum;#1f77b4
 6040.0;gypsum quarry operation;gypsum, mineral;RoW;Gypsum;#1f77b4
 6042.0;gypsum quarry operation;gypsum, mineral;IN;Gypsum;#1f77b4
 6044.0;gypsum quarry operation;gypsum, mineral;ZA;Gypsum;#1f77b4
-6069.0;hard coal mine operation and hard coal preparation;hard coal;AU;Steam Coal;#aec7e8
-6070.0;hard coal mine operation and hard coal preparation;hard coal;CN;Steam Coal;#aec7e8
-6071.0;hard coal mine operation and hard coal preparation;hard coal;Europe, without Russia and Türkiye;Steam Coal;#aec7e8
-6072.0;hard coal mine operation and hard coal preparation;hard coal;ID;Steam Coal;#aec7e8
-6073.0;hard coal mine operation and hard coal preparation;hard coal;RLA;Steam Coal;#aec7e8
-6074.0;hard coal mine operation and hard coal preparation;hard coal;RNA;Steam Coal;#aec7e8
-6075.0;hard coal mine operation and hard coal preparation;hard coal;RU;Steam Coal;#aec7e8
-6076.0;hard coal mine operation and hard coal preparation;hard coal;RoW;Steam Coal;#aec7e8
-6068.0;hard coal mine operation;hard coal, run-of-mine;IN;Steam Coal;#aec7e8
-6077.0;hard coal mine operation, open cast, dragline;hard coal, run-of-mine;ZA;Steam Coal;#aec7e8
-6078.0;hard coal mine operation, open cast, truck and shovel;hard coal, run-of-mine;ZA;Steam Coal;#aec7e8
-6079.0;hard coal mine operation, underground;hard coal, run-of-mine;ZA;Steam Coal;#aec7e8
-7171.0;heavy mineral sand quarry operation;ilmenite, 54% titanium dioxide;AU;Titanium;#ff7f0e
-7174.0;heavy mineral sand quarry operation;ilmenite, 54% titanium dioxide;RoW;Titanium;#ff7f0e
-7305.0;ilmenite - magnetite mine operation;ilmenite, 54% titanium dioxide;GLO;Titanium;#ff7f0e
-7439.0;intral production;intral;RoW;;#000000
-7440.0;intral production;intral;RER;;#000000
+18623.0;sodium sulfate production, from natural sources;sodium sulfate, anhydrite;RoW;Gypsum;#1f77b4
+18624.0;sodium sulfate production, from natural sources;sodium sulfate, anhydrite;RER;Gypsum;#1f77b4
 7455.0;iron ore mine operation and beneficiation;iron ore concentrate;CA-QC;Iron;#ffbb78
 16504.0;niobium mine operation and beneficiation, from pyrochlore ore;iron ore concentrate;BR;Iron;#ffbb78
 16507.0;niobium mine operation and beneficiation, from pyrochlore ore;iron ore concentrate;RoW;Iron;#ffbb78
@@ -128,37 +101,31 @@ column;Activity;Product;Geography;Matched Substance;Color
 23043.0;vanadium-titanomagnetite mine operation and beneficiation;iron ore concentrate;CN;Iron;#ffbb78
 7456.0;iron ore mine operation, 46% Fe;iron ore, crude ore, 46% Fe;GLO;Iron;#ffbb78
 7457.0;iron ore mine operation, 63% Fe;iron ore, crude ore, 63% Fe;IN;Iron;#ffbb78
-7550.0;kaolin production;kaolin;RoW;Kaolin;#2ca02c
-7551.0;kaolin production;kaolin;RER;Kaolin;#2ca02c
+7177.0;heavy mineral sand quarry operation and titania slag production;pig iron;ZA;Iron;#ffbb78
+23044.0;vanadium-titanomagnetite mine operation and beneficiation;pig iron;CN;Iron;#ffbb78
+7550.0;kaolin production;kaolin;RoW;Kaolinite;#2ca02c
+7551.0;kaolin production;kaolin;RER;Kaolinite;#2ca02c
 8053.0;laterite quarry operation;laterite, mineral;RoW;Laterite;#98df8a
 8054.0;laterite quarry operation;laterite, mineral;IN;Laterite;#98df8a
-8055.0;latex production;latex;RoW;;#000000
-8056.0;latex production;latex;RER;;#000000
-8082.0;layered sodium silicate production, SKS-6, powder;layered sodium silicate, SKS-6, powder;RoW;Sodium;#d62728
-8083.0;layered sodium silicate production, SKS-6, powder;layered sodium silicate, SKS-6, powder;RER;Sodium;#d62728
+23485.0;zinc mine operation;bulk lead-zinc concentrate;GLO;Lead;#2ca02c
 5947.0;gold mine operation and refining;lead;SE;Lead;#2ca02c
 5959.0;gold-silver mine operation and beneficiation;lead concentrate;CA-QC;Lead;#2ca02c
 18480.0;silver mine operation with extraction;lead concentrate;PE;Lead;#2ca02c
 23488.0;zinc mine operation;lead concentrate;GLO;Lead;#2ca02c
-17324.0;petroleum refinery operation;light fuel oil;CH;Petroleum;#c5b0d5
-8153.0;lignite mine operation;lignite;RoW;Lignite;#aec7e8
-8154.0;lignite mine operation;lignite;IN;Lignite;#aec7e8
-8155.0;lignite mine operation;lignite;RER;Lignite;#aec7e8
-8160.0;lime production, algae;lime;FR;;#000000
-23489.0;zinc mine operation;lime;GLO;;#000000
-8188.0;limestone quarry operation;limestone, unprocessed;CA-QC;;#000000
-8189.0;limestone quarry operation;limestone, unprocessed;CH;;#000000
-8190.0;limestone quarry operation;limestone, unprocessed;RoW;;#000000
-8191.0;limestone quarry operation;limestone, unprocessed;IN;;#000000
-17325.0;petroleum refinery operation;liquefied petroleum gas;CH;Petroleum;#c5b0d5
+17327.0;petroleum refinery operation;petrol, unleaded;CH;Lead;#2ca02c
+8153.0;lignite mine operation;lignite;RoW;Coal, brown;#aec7e8
+8154.0;lignite mine operation;lignite;IN;Coal, brown;#aec7e8
+8155.0;lignite mine operation;lignite;RER;Coal, brown;#aec7e8
 8238.0;lithium brine inspissation;lithium brine, 6.7 % Li;GLO;Lithium;#A9CBA7
-8299.0;magnesium oxide production;magnesium oxide;RoW;Magnesite;#9467bd
-8300.0;magnesium oxide production;magnesium oxide;RER;Magnesite;#9467bd
+18785.0;spodumene production;spodumene;AU;;#aec7e8
+18786.0;spodumene production;spodumene;RoW;;#aec7e8
+8299.0;magnesium oxide production;magnesium oxide;RoW;Magnesium;#9467bd
+8300.0;magnesium oxide production;magnesium oxide;RER;Magnesium;#9467bd
+7306.0;ilmenite - magnetite mine operation;magnetite;GLO;Magnesite;#c5b0d5
 8306.0;magnesium sulfate production;magnesium sulfate;RoW;Magnesium;#9467bd
 8307.0;magnesium sulfate production;magnesium sulfate;RER;Magnesium;#9467bd
-7306.0;ilmenite - magnetite mine operation;magnetite;GLO;Magnesite;#c5b0d5
-8474.0;malusil production;malusil;RoW;;#000000
-8475.0;malusil production;malusil;RER;;#000000
+5560.0;ferromanganese production, high-coal, 74.5% Mn;ferromanganese, high-coal, 74.5% Mn;RoW;Manganese;#7f7f7f
+5561.0;ferromanganese production, high-coal, 74.5% Mn;ferromanganese, high-coal, 74.5% Mn;RER;Manganese;#7f7f7f
 8487.0;manganese concentrate production;manganese concentrate;GLO;Manganese;#7f7f7f
 15884.0;mercury production;mercury;GLO;Mercury;#8c564b
 2092.0;copper mine operation and beneficiation, sulfide ore;molybdenite;CA;Molybdenum;#c49c94
@@ -168,86 +135,89 @@ column;Activity;Product;Geography;Matched Substance;Color
 2102.0;copper mine operation and beneficiation, sulfide ore;molybdenite;RoW;Molybdenum;#c49c94
 2104.0;copper mine operation and beneficiation, sulfide ore;molybdenite;US;Molybdenum;#c49c94
 16035.0;molybdenite mine operation;molybdenite;GLO;Molybdenum;#c49c94
-17326.0;petroleum refinery operation;naphtha;CH;Petroleum;#c5b0d5
-17161.0;petroleum and gas production, offshore;natural gas, high pressure;AE;Natural gas;#e377c2
-17163.0;petroleum and gas production, offshore;natural gas, high pressure;AR;Natural gas;#e377c2
-17165.0;petroleum and gas production, offshore;natural gas, high pressure;AU;Natural gas;#e377c2
-17167.0;petroleum and gas production, offshore;natural gas, high pressure;AZ;Natural gas;#e377c2
-17169.0;petroleum and gas production, offshore;natural gas, high pressure;BR;Natural gas;#e377c2
-17171.0;petroleum and gas production, offshore;natural gas, high pressure;CA;Natural gas;#e377c2
-17173.0;petroleum and gas production, offshore;natural gas, high pressure;CN;Natural gas;#e377c2
-17175.0;petroleum and gas production, offshore;natural gas, high pressure;CO;Natural gas;#e377c2
-17177.0;petroleum and gas production, offshore;natural gas, high pressure;DE;Natural gas;#e377c2
-17179.0;petroleum and gas production, offshore;natural gas, high pressure;EC;Natural gas;#e377c2
-17181.0;petroleum and gas production, offshore;natural gas, high pressure;EG;Natural gas;#e377c2
-17183.0;petroleum and gas production, offshore;natural gas, high pressure;GB;Natural gas;#e377c2
-17185.0;petroleum and gas production, offshore;natural gas, high pressure;ID;Natural gas;#e377c2
-17187.0;petroleum and gas production, offshore;natural gas, high pressure;IN;Natural gas;#e377c2
-17189.0;petroleum and gas production, offshore;natural gas, high pressure;IR;Natural gas;#e377c2
-17191.0;petroleum and gas production, offshore;natural gas, high pressure;IT;Natural gas;#e377c2
-17193.0;petroleum and gas production, offshore;natural gas, high pressure;KW;Natural gas;#e377c2
-17195.0;petroleum and gas production, offshore;natural gas, high pressure;KZ;Natural gas;#e377c2
-17197.0;petroleum and gas production, offshore;natural gas, high pressure;LY;Natural gas;#e377c2
-17199.0;petroleum and gas production, offshore;natural gas, high pressure;MX;Natural gas;#e377c2
-17201.0;petroleum and gas production, offshore;natural gas, high pressure;MY;Natural gas;#e377c2
-17203.0;petroleum and gas production, offshore;natural gas, high pressure;NG;Natural gas;#e377c2
-17205.0;petroleum and gas production, offshore;natural gas, high pressure;NL;Natural gas;#e377c2
-17207.0;petroleum and gas production, offshore;natural gas, high pressure;NO;Natural gas;#e377c2
-17209.0;petroleum and gas production, offshore;natural gas, high pressure;PE;Natural gas;#e377c2
-17211.0;petroleum and gas production, offshore;natural gas, high pressure;PL;Natural gas;#e377c2
-17213.0;petroleum and gas production, offshore;natural gas, high pressure;QA;Natural gas;#e377c2
-17215.0;petroleum and gas production, offshore;natural gas, high pressure;RO;Natural gas;#e377c2
-17217.0;petroleum and gas production, offshore;natural gas, high pressure;RU;Natural gas;#e377c2
-17219.0;petroleum and gas production, offshore;natural gas, high pressure;SA;Natural gas;#e377c2
-17221.0;petroleum and gas production, offshore;natural gas, high pressure;TH;Natural gas;#e377c2
-17223.0;petroleum and gas production, offshore;natural gas, high pressure;TM;Natural gas;#e377c2
-17225.0;petroleum and gas production, offshore;natural gas, high pressure;TR;Natural gas;#e377c2
-17227.0;petroleum and gas production, offshore;natural gas, high pressure;TT;Natural gas;#e377c2
-17229.0;petroleum and gas production, offshore;natural gas, high pressure;US;Natural gas;#e377c2
-17231.0;petroleum and gas production, offshore;natural gas, high pressure;VE;Natural gas;#e377c2
-17233.0;petroleum and gas production, onshore;natural gas, high pressure;AE;Natural gas;#e377c2
-17235.0;petroleum and gas production, onshore;natural gas, high pressure;AR;Natural gas;#e377c2
-17237.0;petroleum and gas production, onshore;natural gas, high pressure;AU;Natural gas;#e377c2
-17239.0;petroleum and gas production, onshore;natural gas, high pressure;AZ;Natural gas;#e377c2
-17241.0;petroleum and gas production, onshore;natural gas, high pressure;BO;Natural gas;#e377c2
-17243.0;petroleum and gas production, onshore;natural gas, high pressure;BR;Natural gas;#e377c2
-17245.0;petroleum and gas production, onshore;natural gas, high pressure;CA;Natural gas;#e377c2
-17247.0;petroleum and gas production, onshore;natural gas, high pressure;CN;Natural gas;#e377c2
-17249.0;petroleum and gas production, onshore;natural gas, high pressure;CO;Natural gas;#e377c2
-17251.0;petroleum and gas production, onshore;natural gas, high pressure;DE;Natural gas;#e377c2
-17253.0;petroleum and gas production, onshore;natural gas, high pressure;DZ;Natural gas;#e377c2
-17255.0;petroleum and gas production, onshore;natural gas, high pressure;EC;Natural gas;#e377c2
-17257.0;petroleum and gas production, onshore;natural gas, high pressure;EG;Natural gas;#e377c2
-17259.0;petroleum and gas production, onshore;natural gas, high pressure;GB;Natural gas;#e377c2
-17261.0;petroleum and gas production, onshore;natural gas, high pressure;ID;Natural gas;#e377c2
-17263.0;petroleum and gas production, onshore;natural gas, high pressure;IN;Natural gas;#e377c2
-17265.0;petroleum and gas production, onshore;natural gas, high pressure;IQ;Natural gas;#e377c2
-17267.0;petroleum and gas production, onshore;natural gas, high pressure;IR;Natural gas;#e377c2
-17269.0;petroleum and gas production, onshore;natural gas, high pressure;IT;Natural gas;#e377c2
-17271.0;petroleum and gas production, onshore;natural gas, high pressure;KW;Natural gas;#e377c2
-17273.0;petroleum and gas production, onshore;natural gas, high pressure;KZ;Natural gas;#e377c2
-17275.0;petroleum and gas production, onshore;natural gas, high pressure;LY;Natural gas;#e377c2
-17277.0;petroleum and gas production, onshore;natural gas, high pressure;MX;Natural gas;#e377c2
-17279.0;petroleum and gas production, onshore;natural gas, high pressure;MY;Natural gas;#e377c2
-17281.0;petroleum and gas production, onshore;natural gas, high pressure;NG;Natural gas;#e377c2
-17283.0;petroleum and gas production, onshore;natural gas, high pressure;NL;Natural gas;#e377c2
-17285.0;petroleum and gas production, onshore;natural gas, high pressure;OM;Natural gas;#e377c2
-17287.0;petroleum and gas production, onshore;natural gas, high pressure;PE;Natural gas;#e377c2
-17289.0;petroleum and gas production, onshore;natural gas, high pressure;PL;Natural gas;#e377c2
-17291.0;petroleum and gas production, onshore;natural gas, high pressure;QA;Natural gas;#e377c2
-17293.0;petroleum and gas production, onshore;natural gas, high pressure;RO;Natural gas;#e377c2
-17295.0;petroleum and gas production, onshore;natural gas, high pressure;RU;Natural gas;#e377c2
-17297.0;petroleum and gas production, onshore;natural gas, high pressure;SA;Natural gas;#e377c2
-17299.0;petroleum and gas production, onshore;natural gas, high pressure;TH;Natural gas;#e377c2
-17301.0;petroleum and gas production, onshore;natural gas, high pressure;TM;Natural gas;#e377c2
-17303.0;petroleum and gas production, onshore;natural gas, high pressure;TR;Natural gas;#e377c2
-17305.0;petroleum and gas production, onshore;natural gas, high pressure;TT;Natural gas;#e377c2
-17307.0;petroleum and gas production, onshore;natural gas, high pressure;US;Natural gas;#e377c2
-17309.0;petroleum and gas production, onshore;natural gas, high pressure;UZ;Natural gas;#e377c2
-17311.0;petroleum and gas production, onshore;natural gas, high pressure;VE;Natural gas;#e377c2
-16136.0;natural gas venting from petroleum/natural gas production;natural gas, vented;GLO;Natural gas;#e377c2
-16487.0;natural stone plate production, cut;natural stone plate, cut;CH;;#000000
-16488.0;natural stone plate production, cut;natural stone plate, cut;RoW;;#000000
+17161.0;petroleum and gas production, offshore;natural gas, high pressure;AE;Gas, natural;#e377c2
+17163.0;petroleum and gas production, offshore;natural gas, high pressure;AR;Gas, natural;#e377c2
+17165.0;petroleum and gas production, offshore;natural gas, high pressure;AU;Gas, natural;#e377c2
+17167.0;petroleum and gas production, offshore;natural gas, high pressure;AZ;Gas, natural;#e377c2
+17169.0;petroleum and gas production, offshore;natural gas, high pressure;BR;Gas, natural;#e377c2
+17171.0;petroleum and gas production, offshore;natural gas, high pressure;CA;Gas, natural;#e377c2
+17173.0;petroleum and gas production, offshore;natural gas, high pressure;CN;Gas, natural;#e377c2
+17175.0;petroleum and gas production, offshore;natural gas, high pressure;CO;Gas, natural;#e377c2
+17177.0;petroleum and gas production, offshore;natural gas, high pressure;DE;Gas, natural;#e377c2
+17179.0;petroleum and gas production, offshore;natural gas, high pressure;EC;Gas, natural;#e377c2
+17181.0;petroleum and gas production, offshore;natural gas, high pressure;EG;Gas, natural;#e377c2
+17183.0;petroleum and gas production, offshore;natural gas, high pressure;GB;Gas, natural;#e377c2
+17185.0;petroleum and gas production, offshore;natural gas, high pressure;ID;Gas, natural;#e377c2
+17187.0;petroleum and gas production, offshore;natural gas, high pressure;IN;Gas, natural;#e377c2
+17189.0;petroleum and gas production, offshore;natural gas, high pressure;IR;Gas, natural;#e377c2
+17191.0;petroleum and gas production, offshore;natural gas, high pressure;IT;Gas, natural;#e377c2
+17193.0;petroleum and gas production, offshore;natural gas, high pressure;KW;Gas, natural;#e377c2
+17195.0;petroleum and gas production, offshore;natural gas, high pressure;KZ;Gas, natural;#e377c2
+17197.0;petroleum and gas production, offshore;natural gas, high pressure;LY;Gas, natural;#e377c2
+17199.0;petroleum and gas production, offshore;natural gas, high pressure;MX;Gas, natural;#e377c2
+17201.0;petroleum and gas production, offshore;natural gas, high pressure;MY;Gas, natural;#e377c2
+17203.0;petroleum and gas production, offshore;natural gas, high pressure;NG;Gas, natural;#e377c2
+17205.0;petroleum and gas production, offshore;natural gas, high pressure;NL;Gas, natural;#e377c2
+17207.0;petroleum and gas production, offshore;natural gas, high pressure;NO;Gas, natural;#e377c2
+17209.0;petroleum and gas production, offshore;natural gas, high pressure;PE;Gas, natural;#e377c2
+17211.0;petroleum and gas production, offshore;natural gas, high pressure;PL;Gas, natural;#e377c2
+17213.0;petroleum and gas production, offshore;natural gas, high pressure;QA;Gas, natural;#e377c2
+17215.0;petroleum and gas production, offshore;natural gas, high pressure;RO;Gas, natural;#e377c2
+17217.0;petroleum and gas production, offshore;natural gas, high pressure;RU;Gas, natural;#e377c2
+17219.0;petroleum and gas production, offshore;natural gas, high pressure;SA;Gas, natural;#e377c2
+17221.0;petroleum and gas production, offshore;natural gas, high pressure;TH;Gas, natural;#e377c2
+17223.0;petroleum and gas production, offshore;natural gas, high pressure;TM;Gas, natural;#e377c2
+17225.0;petroleum and gas production, offshore;natural gas, high pressure;TR;Gas, natural;#e377c2
+17227.0;petroleum and gas production, offshore;natural gas, high pressure;TT;Gas, natural;#e377c2
+17229.0;petroleum and gas production, offshore;natural gas, high pressure;US;Gas, natural;#e377c2
+17231.0;petroleum and gas production, offshore;natural gas, high pressure;VE;Gas, natural;#e377c2
+17233.0;petroleum and gas production, onshore;natural gas, high pressure;AE;Gas, natural;#e377c2
+17235.0;petroleum and gas production, onshore;natural gas, high pressure;AR;Gas, natural;#e377c2
+17237.0;petroleum and gas production, onshore;natural gas, high pressure;AU;Gas, natural;#e377c2
+17239.0;petroleum and gas production, onshore;natural gas, high pressure;AZ;Gas, natural;#e377c2
+17241.0;petroleum and gas production, onshore;natural gas, high pressure;BO;Gas, natural;#e377c2
+17243.0;petroleum and gas production, onshore;natural gas, high pressure;BR;Gas, natural;#e377c2
+17245.0;petroleum and gas production, onshore;natural gas, high pressure;CA;Gas, natural;#e377c2
+17247.0;petroleum and gas production, onshore;natural gas, high pressure;CN;Gas, natural;#e377c2
+17249.0;petroleum and gas production, onshore;natural gas, high pressure;CO;Gas, natural;#e377c2
+17251.0;petroleum and gas production, onshore;natural gas, high pressure;DE;Gas, natural;#e377c2
+17253.0;petroleum and gas production, onshore;natural gas, high pressure;DZ;Gas, natural;#e377c2
+17255.0;petroleum and gas production, onshore;natural gas, high pressure;EC;Gas, natural;#e377c2
+17257.0;petroleum and gas production, onshore;natural gas, high pressure;EG;Gas, natural;#e377c2
+17259.0;petroleum and gas production, onshore;natural gas, high pressure;GB;Gas, natural;#e377c2
+17261.0;petroleum and gas production, onshore;natural gas, high pressure;ID;Gas, natural;#e377c2
+17263.0;petroleum and gas production, onshore;natural gas, high pressure;IN;Gas, natural;#e377c2
+17265.0;petroleum and gas production, onshore;natural gas, high pressure;IQ;Gas, natural;#e377c2
+17267.0;petroleum and gas production, onshore;natural gas, high pressure;IR;Gas, natural;#e377c2
+17269.0;petroleum and gas production, onshore;natural gas, high pressure;IT;Gas, natural;#e377c2
+17271.0;petroleum and gas production, onshore;natural gas, high pressure;KW;Gas, natural;#e377c2
+17273.0;petroleum and gas production, onshore;natural gas, high pressure;KZ;Gas, natural;#e377c2
+17275.0;petroleum and gas production, onshore;natural gas, high pressure;LY;Gas, natural;#e377c2
+17277.0;petroleum and gas production, onshore;natural gas, high pressure;MX;Gas, natural;#e377c2
+17279.0;petroleum and gas production, onshore;natural gas, high pressure;MY;Gas, natural;#e377c2
+17281.0;petroleum and gas production, onshore;natural gas, high pressure;NG;Gas, natural;#e377c2
+17283.0;petroleum and gas production, onshore;natural gas, high pressure;NL;Gas, natural;#e377c2
+17285.0;petroleum and gas production, onshore;natural gas, high pressure;OM;Gas, natural;#e377c2
+17287.0;petroleum and gas production, onshore;natural gas, high pressure;PE;Gas, natural;#e377c2
+17289.0;petroleum and gas production, onshore;natural gas, high pressure;PL;Gas, natural;#e377c2
+17291.0;petroleum and gas production, onshore;natural gas, high pressure;QA;Gas, natural;#e377c2
+17293.0;petroleum and gas production, onshore;natural gas, high pressure;RO;Gas, natural;#e377c2
+17295.0;petroleum and gas production, onshore;natural gas, high pressure;RU;Gas, natural;#e377c2
+17297.0;petroleum and gas production, onshore;natural gas, high pressure;SA;Gas, natural;#e377c2
+17299.0;petroleum and gas production, onshore;natural gas, high pressure;TH;Gas, natural;#e377c2
+17301.0;petroleum and gas production, onshore;natural gas, high pressure;TM;Gas, natural;#e377c2
+17303.0;petroleum and gas production, onshore;natural gas, high pressure;TR;Gas, natural;#e377c2
+17305.0;petroleum and gas production, onshore;natural gas, high pressure;TT;Gas, natural;#e377c2
+17307.0;petroleum and gas production, onshore;natural gas, high pressure;US;Gas, natural;#e377c2
+17309.0;petroleum and gas production, onshore;natural gas, high pressure;UZ;Gas, natural;#e377c2
+17311.0;petroleum and gas production, onshore;natural gas, high pressure;VE;Gas, natural;#e377c2
+16136.0;natural gas venting from petroleum/natural gas production;natural gas, vented;GLO;Gas, natural;#e377c2
+17329.0;petroleum refinery operation;refinery gas;CH;Gas, natural;#e377c2
+18709.0;sour gas, burned in gas turbine;sour gas, burned in gas turbine;RoW;Gas, natural;#e377c2
+18710.0;sour gas, burned in gas turbine;sour gas, burned in gas turbine;NO;Gas, natural;#e377c2
+1761.0;cobalt production;electrolyte, nickel-rich;GLO;Nickel;#c49c94
+1762.0;cobalt production;ferronickel;GLO;Nickel;#c49c94
+5562.0;ferronickel production;ferronickel;GLO;Nickel;#c49c94
 1763.0;cobalt production;nickel concentrate, 16% Ni;GLO;Nickel;#c49c94
 16499.0;nickel mine operation and benefication to nickel concentrate, 16% Ni;nickel concentrate, 16% Ni;CA-QC;Nickel;#c49c94
 16500.0;nickel mine operation and benefication to nickel concentrate, 7% Ni;nickel concentrate, 7% Ni;CN;Nickel;#c49c94
@@ -256,129 +226,112 @@ column;Activity;Product;Geography;Matched Substance;Color
 1765.0;cobalt production;nickel, class 1;GLO;Nickel;#c49c94
 17632.0;platinum group metal mine operation, ore with high palladium content;nickel, class 1;RU;Nickel;#c49c94
 ;platinum group metal, extraction and refinery operations;nickel, class 1;ZA;Nickel;#c49c95
-16979.0;packaging glass production, brown;packaging glass, brown;CH;;#000000
-16984.0;packaging glass production, green;packaging glass, green;CH;;#000000
-16989.0;packaging glass production, white;packaging glass, white;CH;;#000000
+16505.0;niobium mine operation and beneficiation, from pyrochlore ore;pyrochlore concentrate;BR;Niobium;#000000
+16508.0;niobium mine operation and beneficiation, from pyrochlore ore;pyrochlore concentrate;RoW;Niobium;#000000
 17633.0;platinum group metal mine operation, ore with high palladium content;palladium;RU;Palladium;#f7b6d2
 ;platinum group metal, extraction and refinery operations;palladium;ZA;Palladium;#f7b6d3
 17130.0;perlite quarry operation;perlite;DE;Perlite;#7f7f7f
 17131.0;perlite quarry operation;perlite;RoW;Perlite;#7f7f7f
-17327.0;petroleum refinery operation;petrol, unleaded;CH;Lead;#2ca02c
-17162.0;petroleum and gas production, offshore;petroleum;AE;Petroleum;#c5b0d5
-17164.0;petroleum and gas production, offshore;petroleum;AR;Petroleum;#c5b0d5
-17166.0;petroleum and gas production, offshore;petroleum;AU;Petroleum;#c5b0d5
-17168.0;petroleum and gas production, offshore;petroleum;AZ;Petroleum;#c5b0d5
-17170.0;petroleum and gas production, offshore;petroleum;BR;Petroleum;#c5b0d5
-17172.0;petroleum and gas production, offshore;petroleum;CA;Petroleum;#c5b0d5
-17174.0;petroleum and gas production, offshore;petroleum;CN;Petroleum;#c5b0d5
-17176.0;petroleum and gas production, offshore;petroleum;CO;Petroleum;#c5b0d5
-17178.0;petroleum and gas production, offshore;petroleum;DE;Petroleum;#c5b0d5
-17180.0;petroleum and gas production, offshore;petroleum;EC;Petroleum;#c5b0d5
-17182.0;petroleum and gas production, offshore;petroleum;EG;Petroleum;#c5b0d5
-17184.0;petroleum and gas production, offshore;petroleum;GB;Petroleum;#c5b0d5
-17186.0;petroleum and gas production, offshore;petroleum;ID;Petroleum;#c5b0d5
-17188.0;petroleum and gas production, offshore;petroleum;IN;Petroleum;#c5b0d5
-17190.0;petroleum and gas production, offshore;petroleum;IR;Petroleum;#c5b0d5
-17192.0;petroleum and gas production, offshore;petroleum;IT;Petroleum;#c5b0d5
-17194.0;petroleum and gas production, offshore;petroleum;KW;Petroleum;#c5b0d5
-17196.0;petroleum and gas production, offshore;petroleum;KZ;Petroleum;#c5b0d5
-17198.0;petroleum and gas production, offshore;petroleum;LY;Petroleum;#c5b0d5
-17200.0;petroleum and gas production, offshore;petroleum;MX;Petroleum;#c5b0d5
-17202.0;petroleum and gas production, offshore;petroleum;MY;Petroleum;#c5b0d5
-17204.0;petroleum and gas production, offshore;petroleum;NG;Petroleum;#c5b0d5
-17206.0;petroleum and gas production, offshore;petroleum;NL;Petroleum;#c5b0d5
-17208.0;petroleum and gas production, offshore;petroleum;NO;Petroleum;#c5b0d5
-17210.0;petroleum and gas production, offshore;petroleum;PE;Petroleum;#c5b0d5
-17212.0;petroleum and gas production, offshore;petroleum;PL;Petroleum;#c5b0d5
-17214.0;petroleum and gas production, offshore;petroleum;QA;Petroleum;#c5b0d5
-17216.0;petroleum and gas production, offshore;petroleum;RO;Petroleum;#c5b0d5
-17218.0;petroleum and gas production, offshore;petroleum;RU;Petroleum;#c5b0d5
-17220.0;petroleum and gas production, offshore;petroleum;SA;Petroleum;#c5b0d5
-17222.0;petroleum and gas production, offshore;petroleum;TH;Petroleum;#c5b0d5
-17224.0;petroleum and gas production, offshore;petroleum;TM;Petroleum;#c5b0d5
-17226.0;petroleum and gas production, offshore;petroleum;TR;Petroleum;#c5b0d5
-17228.0;petroleum and gas production, offshore;petroleum;TT;Petroleum;#c5b0d5
-17230.0;petroleum and gas production, offshore;petroleum;US;Petroleum;#c5b0d5
-17232.0;petroleum and gas production, offshore;petroleum;VE;Petroleum;#c5b0d5
-17234.0;petroleum and gas production, onshore;petroleum;AE;Petroleum;#c5b0d5
-17236.0;petroleum and gas production, onshore;petroleum;AR;Petroleum;#c5b0d5
-17238.0;petroleum and gas production, onshore;petroleum;AU;Petroleum;#c5b0d5
-17240.0;petroleum and gas production, onshore;petroleum;AZ;Petroleum;#c5b0d5
-17242.0;petroleum and gas production, onshore;petroleum;BO;Petroleum;#c5b0d5
-17244.0;petroleum and gas production, onshore;petroleum;BR;Petroleum;#c5b0d5
-17246.0;petroleum and gas production, onshore;petroleum;CA;Petroleum;#c5b0d5
-17248.0;petroleum and gas production, onshore;petroleum;CN;Petroleum;#c5b0d5
-17250.0;petroleum and gas production, onshore;petroleum;CO;Petroleum;#c5b0d5
-17252.0;petroleum and gas production, onshore;petroleum;DE;Petroleum;#c5b0d5
-17254.0;petroleum and gas production, onshore;petroleum;DZ;Petroleum;#c5b0d5
-17256.0;petroleum and gas production, onshore;petroleum;EC;Petroleum;#c5b0d5
-17258.0;petroleum and gas production, onshore;petroleum;EG;Petroleum;#c5b0d5
-17260.0;petroleum and gas production, onshore;petroleum;GB;Petroleum;#c5b0d5
-17262.0;petroleum and gas production, onshore;petroleum;ID;Petroleum;#c5b0d5
-17264.0;petroleum and gas production, onshore;petroleum;IN;Petroleum;#c5b0d5
-17266.0;petroleum and gas production, onshore;petroleum;IQ;Petroleum;#c5b0d5
-17268.0;petroleum and gas production, onshore;petroleum;IR;Petroleum;#c5b0d5
-17270.0;petroleum and gas production, onshore;petroleum;IT;Petroleum;#c5b0d5
-17272.0;petroleum and gas production, onshore;petroleum;KW;Petroleum;#c5b0d5
-17274.0;petroleum and gas production, onshore;petroleum;KZ;Petroleum;#c5b0d5
-17276.0;petroleum and gas production, onshore;petroleum;LY;Petroleum;#c5b0d5
-17278.0;petroleum and gas production, onshore;petroleum;MX;Petroleum;#c5b0d5
-17280.0;petroleum and gas production, onshore;petroleum;MY;Petroleum;#c5b0d5
-17282.0;petroleum and gas production, onshore;petroleum;NG;Petroleum;#c5b0d5
-17284.0;petroleum and gas production, onshore;petroleum;NL;Petroleum;#c5b0d5
-17286.0;petroleum and gas production, onshore;petroleum;OM;Petroleum;#c5b0d5
-17288.0;petroleum and gas production, onshore;petroleum;PE;Petroleum;#c5b0d5
-17290.0;petroleum and gas production, onshore;petroleum;PL;Petroleum;#c5b0d5
-17292.0;petroleum and gas production, onshore;petroleum;QA;Petroleum;#c5b0d5
-17294.0;petroleum and gas production, onshore;petroleum;RO;Petroleum;#c5b0d5
-17296.0;petroleum and gas production, onshore;petroleum;RU;Petroleum;#c5b0d5
-17298.0;petroleum and gas production, onshore;petroleum;SA;Petroleum;#c5b0d5
-17300.0;petroleum and gas production, onshore;petroleum;TH;Petroleum;#c5b0d5
-17302.0;petroleum and gas production, onshore;petroleum;TM;Petroleum;#c5b0d5
-17304.0;petroleum and gas production, onshore;petroleum;TR;Petroleum;#c5b0d5
-17306.0;petroleum and gas production, onshore;petroleum;TT;Petroleum;#c5b0d5
-17308.0;petroleum and gas production, onshore;petroleum;US;Petroleum;#c5b0d5
-17310.0;petroleum and gas production, onshore;petroleum;UZ;Petroleum;#c5b0d5
-17312.0;petroleum and gas production, onshore;petroleum;VE;Petroleum;#c5b0d5
-17317.0;petroleum combustion, in drilling tests;petroleum combustion, in drilling tests;GLO;Petroleum;#c5b0d5
+17320.0;petroleum refinery operation;diesel;CH;Oil, crude;#c5b0d5
+17324.0;petroleum refinery operation;light fuel oil;CH;Oil, crude;#c5b0d5
+17325.0;petroleum refinery operation;liquefied petroleum gas;CH;Oil, crude;#c5b0d5
+17326.0;petroleum refinery operation;naphtha;CH;Oil, crude;#c5b0d5
+17162.0;petroleum and gas production, offshore;petroleum;AE;Oil, crude;#c5b0d5
+17164.0;petroleum and gas production, offshore;petroleum;AR;Oil, crude;#c5b0d5
+17166.0;petroleum and gas production, offshore;petroleum;AU;Oil, crude;#c5b0d5
+17168.0;petroleum and gas production, offshore;petroleum;AZ;Oil, crude;#c5b0d5
+17170.0;petroleum and gas production, offshore;petroleum;BR;Oil, crude;#c5b0d5
+17172.0;petroleum and gas production, offshore;petroleum;CA;Oil, crude;#c5b0d5
+17174.0;petroleum and gas production, offshore;petroleum;CN;Oil, crude;#c5b0d5
+17176.0;petroleum and gas production, offshore;petroleum;CO;Oil, crude;#c5b0d5
+17178.0;petroleum and gas production, offshore;petroleum;DE;Oil, crude;#c5b0d5
+17180.0;petroleum and gas production, offshore;petroleum;EC;Oil, crude;#c5b0d5
+17182.0;petroleum and gas production, offshore;petroleum;EG;Oil, crude;#c5b0d5
+17184.0;petroleum and gas production, offshore;petroleum;GB;Oil, crude;#c5b0d5
+17186.0;petroleum and gas production, offshore;petroleum;ID;Oil, crude;#c5b0d5
+17188.0;petroleum and gas production, offshore;petroleum;IN;Oil, crude;#c5b0d5
+17190.0;petroleum and gas production, offshore;petroleum;IR;Oil, crude;#c5b0d5
+17192.0;petroleum and gas production, offshore;petroleum;IT;Oil, crude;#c5b0d5
+17194.0;petroleum and gas production, offshore;petroleum;KW;Oil, crude;#c5b0d5
+17196.0;petroleum and gas production, offshore;petroleum;KZ;Oil, crude;#c5b0d5
+17198.0;petroleum and gas production, offshore;petroleum;LY;Oil, crude;#c5b0d5
+17200.0;petroleum and gas production, offshore;petroleum;MX;Oil, crude;#c5b0d5
+17202.0;petroleum and gas production, offshore;petroleum;MY;Oil, crude;#c5b0d5
+17204.0;petroleum and gas production, offshore;petroleum;NG;Oil, crude;#c5b0d5
+17206.0;petroleum and gas production, offshore;petroleum;NL;Oil, crude;#c5b0d5
+17208.0;petroleum and gas production, offshore;petroleum;NO;Oil, crude;#c5b0d5
+17210.0;petroleum and gas production, offshore;petroleum;PE;Oil, crude;#c5b0d5
+17212.0;petroleum and gas production, offshore;petroleum;PL;Oil, crude;#c5b0d5
+17214.0;petroleum and gas production, offshore;petroleum;QA;Oil, crude;#c5b0d5
+17216.0;petroleum and gas production, offshore;petroleum;RO;Oil, crude;#c5b0d5
+17218.0;petroleum and gas production, offshore;petroleum;RU;Oil, crude;#c5b0d5
+17220.0;petroleum and gas production, offshore;petroleum;SA;Oil, crude;#c5b0d5
+17222.0;petroleum and gas production, offshore;petroleum;TH;Oil, crude;#c5b0d5
+17224.0;petroleum and gas production, offshore;petroleum;TM;Oil, crude;#c5b0d5
+17226.0;petroleum and gas production, offshore;petroleum;TR;Oil, crude;#c5b0d5
+17228.0;petroleum and gas production, offshore;petroleum;TT;Oil, crude;#c5b0d5
+17230.0;petroleum and gas production, offshore;petroleum;US;Oil, crude;#c5b0d5
+17232.0;petroleum and gas production, offshore;petroleum;VE;Oil, crude;#c5b0d5
+17234.0;petroleum and gas production, onshore;petroleum;AE;Oil, crude;#c5b0d5
+17236.0;petroleum and gas production, onshore;petroleum;AR;Oil, crude;#c5b0d5
+17238.0;petroleum and gas production, onshore;petroleum;AU;Oil, crude;#c5b0d5
+17240.0;petroleum and gas production, onshore;petroleum;AZ;Oil, crude;#c5b0d5
+17242.0;petroleum and gas production, onshore;petroleum;BO;Oil, crude;#c5b0d5
+17244.0;petroleum and gas production, onshore;petroleum;BR;Oil, crude;#c5b0d5
+17246.0;petroleum and gas production, onshore;petroleum;CA;Oil, crude;#c5b0d5
+17248.0;petroleum and gas production, onshore;petroleum;CN;Oil, crude;#c5b0d5
+17250.0;petroleum and gas production, onshore;petroleum;CO;Oil, crude;#c5b0d5
+17252.0;petroleum and gas production, onshore;petroleum;DE;Oil, crude;#c5b0d5
+17254.0;petroleum and gas production, onshore;petroleum;DZ;Oil, crude;#c5b0d5
+17256.0;petroleum and gas production, onshore;petroleum;EC;Oil, crude;#c5b0d5
+17258.0;petroleum and gas production, onshore;petroleum;EG;Oil, crude;#c5b0d5
+17260.0;petroleum and gas production, onshore;petroleum;GB;Oil, crude;#c5b0d5
+17262.0;petroleum and gas production, onshore;petroleum;ID;Oil, crude;#c5b0d5
+17264.0;petroleum and gas production, onshore;petroleum;IN;Oil, crude;#c5b0d5
+17266.0;petroleum and gas production, onshore;petroleum;IQ;Oil, crude;#c5b0d5
+17268.0;petroleum and gas production, onshore;petroleum;IR;Oil, crude;#c5b0d5
+17270.0;petroleum and gas production, onshore;petroleum;IT;Oil, crude;#c5b0d5
+17272.0;petroleum and gas production, onshore;petroleum;KW;Oil, crude;#c5b0d5
+17274.0;petroleum and gas production, onshore;petroleum;KZ;Oil, crude;#c5b0d5
+17276.0;petroleum and gas production, onshore;petroleum;LY;Oil, crude;#c5b0d5
+17278.0;petroleum and gas production, onshore;petroleum;MX;Oil, crude;#c5b0d5
+17280.0;petroleum and gas production, onshore;petroleum;MY;Oil, crude;#c5b0d5
+17282.0;petroleum and gas production, onshore;petroleum;NG;Oil, crude;#c5b0d5
+17284.0;petroleum and gas production, onshore;petroleum;NL;Oil, crude;#c5b0d5
+17286.0;petroleum and gas production, onshore;petroleum;OM;Oil, crude;#c5b0d5
+17288.0;petroleum and gas production, onshore;petroleum;PE;Oil, crude;#c5b0d5
+17290.0;petroleum and gas production, onshore;petroleum;PL;Oil, crude;#c5b0d5
+17292.0;petroleum and gas production, onshore;petroleum;QA;Oil, crude;#c5b0d5
+17294.0;petroleum and gas production, onshore;petroleum;RO;Oil, crude;#c5b0d5
+17296.0;petroleum and gas production, onshore;petroleum;RU;Oil, crude;#c5b0d5
+17298.0;petroleum and gas production, onshore;petroleum;SA;Oil, crude;#c5b0d5
+17300.0;petroleum and gas production, onshore;petroleum;TH;Oil, crude;#c5b0d5
+17302.0;petroleum and gas production, onshore;petroleum;TM;Oil, crude;#c5b0d5
+17304.0;petroleum and gas production, onshore;petroleum;TR;Oil, crude;#c5b0d5
+17306.0;petroleum and gas production, onshore;petroleum;TT;Oil, crude;#c5b0d5
+17308.0;petroleum and gas production, onshore;petroleum;US;Oil, crude;#c5b0d5
+17310.0;petroleum and gas production, onshore;petroleum;UZ;Oil, crude;#c5b0d5
+17312.0;petroleum and gas production, onshore;petroleum;VE;Oil, crude;#c5b0d5
+17317.0;petroleum combustion, in drilling tests;petroleum combustion, in drilling tests;GLO;Oil, crude;#c5b0d5
 17353.0;phosphate rock beneficiation;phosphate rock, beneficiated;RoW;Phosphate;#c7c7c7
 17354.0;phosphate rock beneficiation;phosphate rock, beneficiated;MA;Phosphate;#c7c7c7
 17355.0;phosphate rock beneficiation;phosphate rock, beneficiated;RER;Phosphate;#c7c7c7
 17356.0;phosphate rock beneficiation;phosphate rock, beneficiated;US;Phosphate;#c7c7c7
-7177.0;heavy mineral sand quarry operation and titania slag production;pig iron;ZA;Iron;#ffbb78
-23044.0;vanadium-titanomagnetite mine operation and beneficiation;pig iron;CN;Iron;#ffbb78
 17634.0;platinum group metal mine operation, ore with high palladium content;platinum;RU;Platinum;#bcbd22
 ;platinum group metal, extraction and refinery operations;platinum;ZA;Platinum;#bcbd23
 17642.0;platinum group metal, mine and concentration operations;platinum group metal concentrate;ZA;Platinum;#bcbd22
-17787.0;portafer production;portafer;CA-QC;;#000000
-17788.0;portafer production;portafer;RoW;;#000000
-17789.0;portafer production;portafer;RER;;#000000
-17790.0;potash salt production;potash salt;RoW;;#000000
-17791.0;potash salt production;potash salt;RER;;#000000
 17793.0;potassium chloride production;potassium chloride;RoW;Potassium;#dbdb8d
 17803.0;potassium mining and benefication;potassium chloride;CA-SK;Potassium;#dbdb8d
 17998.0;pumice quarry operation;pumice;DE;Pumice;#17becf
 17999.0;pumice quarry operation;pumice;RoW;Pumice;#17becf
-16505.0;niobium mine operation and beneficiation, from pyrochlore ore;pyrochlore concentrate;BR;Niobium;#000000
-16508.0;niobium mine operation and beneficiation, from pyrochlore ore;pyrochlore concentrate;RoW;Niobium;#000000
-23490.0;zinc mine operation;quicklime, milled, loose;GLO;;#000000
-18078.0;rare earth element mine operation and beneficiation, ion adsorption clays;rare earth carbonate concentrate;CN;Rare earth;#000000
-18079.0;rare earth element mine operation and beneficiation, ion adsorption clays;rare earth carbonate concentrate;RoW;Rare earth;#000000
-18076.0;rare earth element mine operation and beneficiation, bastnaesite and monazite ore;rare earth oxide concentrate, 50% REO;CN-NM;Rare earth;#000000
-18077.0;rare earth element mine operation and beneficiation, bastnaesite ore;rare earth oxide concentrate, 70% REO;CN-SC;Rare earth;#000000
-17329.0;petroleum refinery operation;refinery gas;CH;Natural gas;#e377c2
+18078.0;rare earth element mine operation and beneficiation, ion adsorption clays;rare earth carbonate concentrate;CN;Dysprosium;#000000
+18079.0;rare earth element mine operation and beneficiation, ion adsorption clays;rare earth carbonate concentrate;RoW;Dysprosium;#000000
+18076.0;rare earth element mine operation and beneficiation, bastnaesite and monazite ore;rare earth oxide concentrate, 50% REO;CN-NM;Dysprosium;#000000
+18077.0;rare earth element mine operation and beneficiation, bastnaesite ore;rare earth oxide concentrate, 70% REO;CN-SC;Dysprosium;#000000
 17635.0;platinum group metal mine operation, ore with high palladium content;rhodium;RU;Rhodium;#9edae5
 ;platinum group metal, extraction and refinery operations;rhodium;ZA;Rhodium;#9edae6
-7172.0;heavy mineral sand quarry operation;rutile, 95% titanium dioxide;AU;Titanium;#ff7f0e
-7175.0;heavy mineral sand quarry operation;rutile, 95% titanium dioxide;RoW;Titanium;#ff7f0e
-7178.0;heavy mineral sand quarry operation and titania slag production;rutile, 95% titanium dioxide;ZA;Titanium;#ff7f0e
-5994.0;gravel and sand quarry operation;sand;CH;;#000000
-5996.0;gravel and sand quarry operation;sand;RoW;;#000000
-18261.0;sand quarry operation, extraction from river bed;sand;BR;;#000000
-18262.0;sand quarry operation, extraction from river bed;sand;RoW;;#000000
-18263.0;sand quarry operation, extraction from river bed;sand;IN;;#000000
-18264.0;sand quarry operation, open pit mine;sand;BR;;#000000
-23491.0;zinc mine operation;sand;GLO;;#000000
+1001.0;burnt shale production;burnt shale;DE;Shale;#98df8a
+1003.0;burnt shale production;burnt shale;RoW;Shale;#98df8a
 18415.0;shale quarry operation;shale;CA-QC;Shale;#98df8a
 18416.0;shale quarry operation;shale;RoW;Shale;#98df8a
 5948.0;gold mine operation and refining;silver;SE;Silver;#1f77b4
@@ -388,30 +341,33 @@ column;Activity;Product;Geography;Matched Substance;Color
 18484.0;silver-gold mine operation with refinery;silver;CL;Silver;#1f77b4
 18486.0;silver-gold mine operation with refinery;silver;RoW;Silver;#1f77b4
 18481.0;silver mine operation with extraction;silver, unrefined;PE;Silver;#1f77b4
-18548.0;sodium borate mine operation and beneficiation;sodium borates;RoW;Boron;#d62728
-18549.0;sodium borate mine operation and beneficiation;sodium borates;US;Boron;#d62728
+8082.0;layered sodium silicate production, SKS-6, powder;layered sodium silicate, SKS-6, powder;RoW;Sodium;#d62728
+8083.0;layered sodium silicate production, SKS-6, powder;layered sodium silicate, SKS-6, powder;RER;Sodium;#d62728
 18553.0;sodium chloride production, brine solution;sodium chloride, brine solution;RoW;Sodium;#d62728
 18554.0;sodium chloride production, brine solution;sodium chloride, brine solution;RER;Sodium;#d62728
 18555.0;sodium chloride production, powder;sodium chloride, powder;RoW;Sodium;#d62728
 18556.0;sodium chloride production, powder;sodium chloride, powder;RER;Sodium;#d62728
 18588.0;sodium nitrate production, unrefined from caliche ore mining;sodium nitrate, unrefined;CL;Sodium;#d62728
-18593.0;sodium perborate production, monohydrate, powder;sodium perborate, monohydrate, powder;RoW;Sodium;#d62728
-18594.0;sodium perborate production, monohydrate, powder;sodium perborate, monohydrate, powder;RER;Sodium;#d62728
-18595.0;sodium perborate production, tetrahydrate, powder;sodium perborate, tetrahydrate, powder;RoW;Sodium;#d62728
-18596.0;sodium perborate production, tetrahydrate, powder;sodium perborate, tetrahydrate, powder;RER;Sodium;#d62728
-18599.0;sodium percarbonate production, powder;sodium percarbonate, powder;RoW;Sodium;#d62728
-18600.0;sodium percarbonate production, powder;sodium percarbonate, powder;RER;Sodium;#d62728
-18623.0;sodium sulfate production, from natural sources;sodium sulfate, anhydrite;RoW;Gypsum;#1f77b4
-18624.0;sodium sulfate production, from natural sources;sodium sulfate, anhydrite;RER;Gypsum;#1f77b4
-18709.0;sour gas, burned in gas turbine;sour gas, burned in gas turbine;RoW;Natural gas;#e377c2
-18710.0;sour gas, burned in gas turbine;sour gas, burned in gas turbine;NO;Natural gas;#e377c2
-18785.0;spodumene production;spodumene;AU;Lithium;#aec7e8
-18786.0;spodumene production;spodumene;RoW;Lithium;#aec7e8
+18593.0;sodium perborate production, monohydrate, powder;sodium perborate, monohydrate, powder;RoW;;#d62728
+18594.0;sodium perborate production, monohydrate, powder;sodium perborate, monohydrate, powder;RER;;#d62728
+18595.0;sodium perborate production, tetrahydrate, powder;sodium perborate, tetrahydrate, powder;RoW;;#d62728
+18596.0;sodium perborate production, tetrahydrate, powder;sodium perborate, tetrahydrate, powder;RER;;#d62728
+18599.0;sodium percarbonate production, powder;sodium percarbonate, powder;RoW;;#d62728
+18600.0;sodium percarbonate production, powder;sodium percarbonate, powder;RER;;#d62728
+6069.0;hard coal mine operation and hard coal preparation;hard coal;AU;Coal, hard;#aec7e8
+6070.0;hard coal mine operation and hard coal preparation;hard coal;CN;Coal, hard;#aec7e8
+6071.0;hard coal mine operation and hard coal preparation;hard coal;Europe, without Russia and Türkiye;Coal, hard;#aec7e8
+6072.0;hard coal mine operation and hard coal preparation;hard coal;ID;Coal, hard;#aec7e8
+6073.0;hard coal mine operation and hard coal preparation;hard coal;RLA;Coal, hard;#aec7e8
+6074.0;hard coal mine operation and hard coal preparation;hard coal;RNA;Coal, hard;#aec7e8
+6075.0;hard coal mine operation and hard coal preparation;hard coal;RU;Coal, hard;#aec7e8
+6076.0;hard coal mine operation and hard coal preparation;hard coal;RoW;Coal, hard;#aec7e8
+6068.0;hard coal mine operation;hard coal, run-of-mine;IN;Coal, hard;#aec7e8
+6077.0;hard coal mine operation, open cast, dragline;hard coal, run-of-mine;ZA;Coal, hard;#aec7e8
+6078.0;hard coal mine operation, open cast, truck and shovel;hard coal, run-of-mine;ZA;Coal, hard;#aec7e8
+6079.0;hard coal mine operation, underground;hard coal, run-of-mine;ZA;Coal, hard;#aec7e8
 18803.0;steatite quarry operation;steatite;CA-QC;Steatite;#ff7f0e
 18804.0;steatite quarry operation;steatite;RoW;Steatite;#ff7f0e
-18848.0;stibnite mine operation and beneficiation;stibnite concentrate;CA-QC;Antimony;#000000
-18849.0;stibnite mine operation and beneficiation;stibnite concentrate;CN;Antimony;#000000
-18850.0;stibnite mine operation and beneficiation;stibnite concentrate;RoW;Antimony;#000000
 18892.0;strontium mine operation and beneficiation;strontium sulfate, 90% SrSO4;CN;Strontium;#ffbb78
 18893.0;strontium mine operation and beneficiation;strontium sulfate, 90% SrSO4;ES;Strontium;#ffbb78
 18894.0;strontium mine operation and beneficiation;strontium sulfate, 90% SrSO4;RoW;Strontium;#ffbb78
@@ -419,12 +375,17 @@ column;Activity;Product;Geography;Matched Substance;Color
 17330.0;petroleum refinery operation;sulfur;CH;Sulfur;#2ca02c
 1767.0;cobalt production;sulfuric acid;GLO;Sulfur;#2ca02c
 2109.0;copper production, cathode, solvent extraction and electrowinning process;sulfuric acid;GLO;Sulfur;#2ca02c
-19068.0;sweet gas, burned in gas turbine;sweet gas;GLO;;#000000
 19118.0;tantalum mine operation and beneficiation;tantalum concentrate, 30% Ta2O5;CD;Tantalum;#98df8a
 19119.0;tantalum mine operation and beneficiation;tantalum concentrate, 30% Ta2O5;RoW;Tantalum;#98df8a
 19120.0;tantalum mine operation and beneficiation;tantalum concentrate, 30% Ta2O5;RW;Tantalum;#98df8a
 19301.0;tin mine operation;tin concentrate;RoW;Tin;#d62728
 19302.0;tin mine operation;tin concentrate;PE;Tin;#d62728
+7171.0;heavy mineral sand quarry operation;ilmenite, 54% titanium dioxide;AU;Titanium;#ff7f0e
+7174.0;heavy mineral sand quarry operation;ilmenite, 54% titanium dioxide;RoW;Titanium;#ff7f0e
+7305.0;ilmenite - magnetite mine operation;ilmenite, 54% titanium dioxide;GLO;Titanium;#ff7f0e
+7172.0;heavy mineral sand quarry operation;rutile, 95% titanium dioxide;AU;Titanium;#ff7f0e
+7175.0;heavy mineral sand quarry operation;rutile, 95% titanium dioxide;RoW;Titanium;#ff7f0e
+7178.0;heavy mineral sand quarry operation and titania slag production;rutile, 95% titanium dioxide;ZA;Titanium;#ff7f0e
 7179.0;heavy mineral sand quarry operation and titania slag production;titania slag, 85% titanium dioxide;ZA;Titanium;#ff7f0e
 23045.0;vanadium-titanomagnetite mine operation and beneficiation;titania slag, 94% titanium dioxide;CN;Titanium;#ff7f0e
 22925.0;tungsten mine operation and beneficiation;tungsten concentrate;CN;Tungsten;#ff9896
@@ -436,11 +397,6 @@ column;Activity;Product;Geography;Matched Substance;Color
 23021.0;uranium production, in yellowcake, in-situ leaching;uranium, in yellowcake;GLO;Uranium;#9467bd
 23092.0;vermiculite mine operation;vermiculite;RoW;Vermiculite;#c5b0d5
 23093.0;vermiculite mine operation;vermiculite;ZA;Vermiculite;#c5b0d5
-23217.0;wax production, for lost-wax metal casting;wax, lost-wax casting;GLO;;#d62728
-23475.0;zeolite production, powder;zeolite, powder;RoW;;#000000
-23476.0;zeolite production, powder;zeolite, powder;RER;;#000000
-23477.0;zeolite production, slurry, without water, in 50% solution state;zeolite, slurry, without water, in 50% solution state;RoW;;#000000
-23478.0;zeolite production, slurry, without water, in 50% solution state;zeolite, slurry, without water, in 50% solution state;RER;;#000000
 5949.0;gold mine operation and refining;zinc;SE;Zinc;#8c564b
 5960.0;gold-silver mine operation and beneficiation;zinc concentrate;CA-QC;Zinc;#8c564b
 18482.0;silver mine operation with extraction;zinc concentrate;PE;Zinc;#8c564b
@@ -449,3 +405,47 @@ column;Activity;Product;Geography;Matched Substance;Color
 7173.0;heavy mineral sand quarry operation;zircon;AU;Zirconium;#c49c94
 7176.0;heavy mineral sand quarry operation;zircon;RoW;Zirconium;#c49c94
 7180.0;heavy mineral sand quarry operation and titania slag production;zircon;ZA;Zirconium;#c49c94
+1747.0;cobalt production;ammonia, anhydrous, liquid;GLO;;#000000
+1748.0;cobalt production;ammonium sulfate;GLO;;#000000
+1771.0;cobwork production;cobwork;CH;;#000000
+1772.0;cobwork production;cobwork;RoW;;#000000
+1759.0;cobalt production;electricity, high voltage;GLO;;#000000
+17321.0;petroleum refinery operation;electricity, high voltage;CH;;#000000
+1002.0;burnt shale production;electricity, medium voltage;DE;;#000000
+1004.0;burnt shale production;electricity, medium voltage;RoW;;#000000
+7439.0;intral production;intral;RoW;;#000000
+7440.0;intral production;intral;RER;;#000000
+8055.0;latex production;latex;RoW;;#000000
+8056.0;latex production;latex;RER;;#000000
+8160.0;lime production, algae;lime;FR;;#000000
+23489.0;zinc mine operation;lime;GLO;;#000000
+8188.0;limestone quarry operation;limestone, unprocessed;CA-QC;;#000000
+8189.0;limestone quarry operation;limestone, unprocessed;CH;;#000000
+8190.0;limestone quarry operation;limestone, unprocessed;RoW;;#000000
+8191.0;limestone quarry operation;limestone, unprocessed;IN;;#000000
+8474.0;malusil production;malusil;RoW;;#000000
+8475.0;malusil production;malusil;RER;;#000000
+16487.0;natural stone plate production, cut;natural stone plate, cut;CH;;#000000
+16488.0;natural stone plate production, cut;natural stone plate, cut;RoW;;#000000
+16979.0;packaging glass production, brown;packaging glass, brown;CH;;#000000
+16984.0;packaging glass production, green;packaging glass, green;CH;;#000000
+16989.0;packaging glass production, white;packaging glass, white;CH;;#000000
+17787.0;portafer production;portafer;CA-QC;;#000000
+17788.0;portafer production;portafer;RoW;;#000000
+17789.0;portafer production;portafer;RER;;#000000
+17790.0;potash salt production;potash salt;RoW;;#000000
+17791.0;potash salt production;potash salt;RER;;#000000
+23490.0;zinc mine operation;quicklime, milled, loose;GLO;;#000000
+5994.0;gravel and sand quarry operation;sand;CH;;#000000
+5996.0;gravel and sand quarry operation;sand;RoW;;#000000
+18261.0;sand quarry operation, extraction from river bed;sand;BR;;#000000
+18262.0;sand quarry operation, extraction from river bed;sand;RoW;;#000000
+18263.0;sand quarry operation, extraction from river bed;sand;IN;;#000000
+18264.0;sand quarry operation, open pit mine;sand;BR;;#000000
+23491.0;zinc mine operation;sand;GLO;;#000000
+19068.0;sweet gas, burned in gas turbine;sweet gas;GLO;;#000000
+23217.0;wax production, for lost-wax metal casting;wax, lost-wax casting;GLO;;#d62728
+23475.0;zeolite production, powder;zeolite, powder;RoW;;#000000
+23476.0;zeolite production, powder;zeolite, powder;RER;;#000000
+23477.0;zeolite production, slurry, without water, in 50% solution state;zeolite, slurry, without water, in 50% solution state;RoW;;#000000
+23478.0;zeolite production, slurry, without water, in 50% solution state;zeolite, slurry, without water, in 50% solution state;RER;;#000000
