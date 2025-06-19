@@ -42,7 +42,7 @@ else:
     pubchem_cache = {}
 
 # 📌 STEP 3: Load manual matches from "intermediate_flows_with_colors_corrected.csv"
-csv_matches = "intermediate_flows_with_colors_corrected.csv"
+csv_matches = "intermediate_flows_with_colors_corrected_AK.csv"
 df_matches = pd.read_csv(csv_matches, delimiter=";")[
     ["Product", "Matched Substance", "Color"]
 ].dropna()
@@ -177,7 +177,6 @@ df_b_public.rename(
 )
 
 # 📌 STEP 10: Save and display results
-df_b_public.to_csv("processed_b_public_with_percentages.csv", sep=";", index=False)
+df_b_public.to_csv("processed_b_public_with_percentages_AK.csv", sep=";", index=False)
 
 print("🎉 Process completed! You can now review the results.")
-

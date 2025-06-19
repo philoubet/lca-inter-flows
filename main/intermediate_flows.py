@@ -9,14 +9,14 @@ import matplotlib.colors as mcolors
 import sys
 
 # Configure logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO)
+# logger = logging.getLogger(__name__)
 
 # --- Configuration ---
 CONFIG = {
-    "Country": "IT",
+    "Country": "RER",
     "project": "intermediate_flows",
-    "databases": ["ecoinvent-3.10-cutoff"],
+    "databases": ["ecoinvent-3.10.1-cutoff"],
     "matched_csv": "processed_b_public_with_percentages_AK.csv",
     "risk_csv": "model_csv_geopolrisk_with_colors_corrected_AK.csv",
     "filter_keyword": "market for battery",  # "market for battery,"
@@ -61,7 +61,7 @@ supply_risk_factors_int = (
         ["Activity", "Product", "Geography", "Matched Substance", "Final_Percentage"]
     ]
     .merge(
-        filtered_supply_risk_factors_elem[["Color", "Substance", "Supplyrisk"]],
+        filtered_supply_risk_factors_elem[["Color", "Matched Substance", "Supplyrisk"]],
         left_on="Matched Substance",
         right_on="Substance",
         how="left",
@@ -122,9 +122,7 @@ def compute_lca_flows(db_name, activities):
         ]
 
         if not rows_i:
-            logger.info(
-                f"No intermediate flows for activity {func_str}; skipping merge."
-            )
+            print(f"No intermediate flows for activity {func_str}; skipping merge.")
             df_i = pd.DataFrame(
                 columns=[
                     "Activity",
@@ -164,7 +162,7 @@ def compute_lca_flows(db_name, activities):
             and (bm := bios_meta[key])["type"] == "natural resource"
         ]
         if not rows_e:
-            logger.info(f"No elementary flows for activity {func_str}; skipping merge.")
+            print(f"No elementary flows for activity {func_str}; skipping merge.")
             # create an “empty” df_e with the right columns so downstream code won’t break
             df_e = pd.DataFrame(
                 columns=[
@@ -180,7 +178,7 @@ def compute_lca_flows(db_name, activities):
         else:
             df_e = (
                 pd.DataFrame(rows_e)
-                .merge(supply_risk_factors_elem, on="Substance", how="inner")
+                .merge(filtered_supply_risk_factors_elem, on="Substance", how="inner")
                 .assign(
                     risky_elem_mass=lambda df: df["Mass"].where(
                         df["Supplyrisk"] > 0, 0
@@ -395,14 +393,12 @@ if __name__ == "__main__":
 
     activities = get_filtered_activities(CONFIG["databases"][0])
     if not activities:
-        logger.error(
-            f"No activities found matching “{CONFIG['filter_keyword']}”.  Exiting."
-        )
+        print(f"No activities found matching “{CONFIG['filter_keyword']}”.  Exiting.")
         sys.exit(1)
     all_results = {}
 
     for db in CONFIG["databases"]:
-        logger.info(f"Processing DB: {db}")
+        print(f"Processing DB: {db}")
         # compute and summarize
         rec = compute_lca_flows(db, activities)
         summary_df = summarize_records(rec)
@@ -429,7 +425,7 @@ if __name__ == "__main__":
                     f"Mass (with risk) - {cat} – {db}",
                 )
             else:
-                logger.info(f"All mass data zero for {cat} – {db}, skipping mass plot.")
+                print(f"All mass data zero for {cat} – {db}, skipping mass plot.")
 
             # RISK plot: remove rows where both risk_int and risk_elem are zero
             df_risk = df.loc[~((df["risk_int"] == 0) & (df["risk_elem"] == 0))]
@@ -443,6 +439,6 @@ if __name__ == "__main__":
                     f"Supply risk - {cat} – {db}",
                 )
             else:
-                logger.info(f"All risk data zero for {cat} – {db}, skipping risk plot.")
+                print(f"All risk data zero for {cat} – {db}, skipping risk plot.")
 
     plot_activity_contributions(rec, top_n=5, max_activities=5, dpi=300)
