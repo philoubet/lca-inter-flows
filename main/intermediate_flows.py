@@ -14,11 +14,11 @@ import sys
 
 # --- Configuration ---
 CONFIG = {
-    "Country": "RER",
+    "Country": "FR",
     "project": "intermediate_flows",
     "databases": ["ecoinvent-3.10.1-cutoff"],
     "matched_csv": "processed_b_public_with_percentages_AK.csv",
-    "risk_csv": "model_csv_geopolrisk_with_colors_corrected_AK.csv",
+    "risk_csv": "model_csv_geopolrisk_with_colors_corrected_AK2.csv",
     "filter_keyword": "market for battery",  # "market for battery,"
     "sample_size": 10,
     "fossil_resources": [
@@ -253,7 +253,7 @@ def plot_scatter(df, x_column, y_column, xlabel, ylabel, title, offset=0.02, dpi
             (df[x_column].iloc[i] + offset * x_range, df[y_column].iloc[i]),
             fontsize=10,
         )
-    plt.xlabel(xlabel, fontsize=12)
+    # plt.xlabel(xlabel, fontsize=12)
     plt.ylabel(ylabel, fontsize=12)
     plt.title(title, fontsize=14)
     plt.xlim(xlim)
