@@ -388,6 +388,161 @@ def plot_activity_contributions(records, top_n=5, max_activities=None, dpi=300):
         plt.show()
 
 
+def plot_material_stacks_per_activity(
+    geo_records_dict, activity_idx=0, top_n=10, dpi=300
+):
+    """
+    Plot a single activity across all geographies:
+    - Mass of intermediate flows
+    - Supply risk using intermediate flows
+    - Mass of elementary (biosphere) flows
+    - Supply risk using elementary flows
+
+    Orders stack so that:
+    - "Rest" is always at the top
+    - Flows with the same color as "Rest" are grouped just below "Rest"
+    - Remaining flows are below, ordered by value
+    """
+
+    def ideal_text_color(hexcolor):
+        try:
+            rgb = np.array(mcolors.to_rgb(hexcolor))
+            lum = 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2]
+            return "white" if lum < 0.6 else "black"
+        except:
+            return "black"
+
+    def make_stacked_data(df, group_col, value_col):
+        d = df.groupby(group_col, as_index=False).agg(
+            {value_col: "sum", "Color": "first"}
+        )
+        d = d.sort_values(value_col, ascending=False).head(top_n)
+        rest = df[value_col].sum() - d[value_col].sum()
+        rest_color = "#D3D3D3"
+        if rest > 0:
+            d = pd.concat(
+                [
+                    d,
+                    pd.DataFrame(
+                        {
+                            group_col: ["Rest"],
+                            value_col: [rest],
+                            "Color": [rest_color],
+                        }
+                    ),
+                ],
+                ignore_index=True,
+            )
+        # Separate into three groups for sorting: other > rest-like > Rest
+        rest_row = d[d[group_col] == "Rest"]
+        main = d[
+            (d[group_col] != "Rest")
+            & ((d["Color"].notna()) | (d["Color"] != "") | (d["Color"] != rest_color))
+        ]
+        rest_like = d[(d[group_col] != "Rest") & (d["Color"] == rest_color)]
+
+        # Order: main (ascending) < rest-like (ascending) < Rest
+        ordered = pd.concat(
+            [
+                main.sort_values(value_col, ascending=False),
+                rest_like.sort_values(value_col, ascending=False),
+                rest_row,
+            ],
+            ignore_index=True,
+        )
+
+        return ordered, rest_color
+
+    activity_name, *_ = next(iter(geo_records_dict.values()))[activity_idx]
+    fig, axes = plt.subplots(
+        len(geo_records_dict), 4, figsize=(20, 4 * len(geo_records_dict)), dpi=dpi
+    )
+    if len(geo_records_dict) == 1:
+        axes = np.array(axes).reshape((1, 4))
+
+    mass_values, risk_values = [], []
+
+    # Pre-compute y-limits
+    for records in geo_records_dict.values():
+        _, df_i, df_e = records[activity_idx]
+        mass_values.extend([df_i["Supply_Amount"].sum(), df_e["Mass"].sum()])
+        risk_values.extend([df_i["risk_int"].sum(), df_e["risk_elem"].sum()])
+
+    max_mass = max(mass_values) * 1.1
+    max_risk = max(risk_values) * 1.1
+
+    for row_idx, (geo, records) in enumerate(geo_records_dict.items()):
+        _, df_i, df_e = records[activity_idx]
+
+        plot_data = [
+            ("Supply_Amount", "Product", df_i, "Mass – Intermediate", max_mass),
+            ("risk_int", "Product", df_i, "Supply Risk – Intermediate", max_risk),
+            ("Mass", "Substance", df_e, "Mass – Biosphere", max_mass),
+            ("risk_elem", "Substance", df_e, "Supply Risk – Biosphere", max_risk),
+        ]
+
+        for col_idx, (value_col, group_col, df_source, title, ylimit) in enumerate(
+            plot_data
+        ):
+            ax = axes[row_idx, col_idx]
+            d, rest_color = make_stacked_data(df_source, group_col, value_col)
+
+            bottom = 0
+            for _, row in d.iterrows():
+                h = float(row[value_col])
+                color = row["Color"] if pd.notna(row["Color"]) else rest_color
+                bar = ax.bar(0, h, bottom=bottom, color=color, width=0.6)[0]
+                y_center = bottom + h / 2
+                label = row[group_col]
+                txt_color = ideal_text_color(color)
+
+                if h >= ylimit * 0.05:
+                    ax.text(
+                        0,
+                        y_center,
+                        label,
+                        va="center",
+                        ha="center",
+                        fontsize=8,
+                        color=txt_color,
+                    )
+                else:
+                    x_center = bar.get_x() + bar.get_width() / 2
+                    y_start = bottom + h
+                    y_end = y_start + ylimit * 0.05
+                    ax.plot([x_center, x_center], [y_start, y_end], "k-", linewidth=0.5)
+                    ax.text(
+                        x_center,
+                        y_end + ylimit * 0.01,
+                        label,
+                        va="bottom",
+                        ha="center",
+                        fontsize=6,
+                    )
+
+                bottom += h
+
+            ax.set_title(f"{title}", fontsize=10)
+            ax.set_xticks([])
+            ax.set_ylim(0, ylimit)
+            ax.set_ylabel("kg or kg Cu eq", fontsize=9)
+            if col_idx == 0:
+                ax.annotate(
+                    geo,
+                    xy=(-0.6, 0.5),
+                    xycoords="axes fraction",
+                    fontsize=11,
+                    rotation=90,
+                    va="center",
+                    ha="right",
+                    weight="bold",
+                )
+
+    fig.suptitle(activity_name, fontsize=13, y=1.02)
+    plt.tight_layout()
+    plt.show()
+
+
 # Execution
 if __name__ == "__main__":
 

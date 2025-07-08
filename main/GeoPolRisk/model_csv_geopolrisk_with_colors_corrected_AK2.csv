@@ -37,7 +37,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.001646992517482349;AU;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.00845424471481931;AU;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;31.68103968350592;AU;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;10411.79613392995;AU;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.02449802431329072;AU;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.02449802431329072;AU;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.03243245528655043;AU;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;11284.55484192246;AU;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;0.05742231260054973;AU;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -109,7 +109,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1525809859125596;AT;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;8.749830004529622;AT;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;28.28785672126629;AT;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;8681.43032268557;AT;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.09739331472323541;AT;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.09739331472323541;AT;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.09928517560533709;AT;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;196.7774707369257;AT;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;5.509290978352864;AT;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -181,7 +181,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1550351890471235;BE;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;1.983752859948175;BE;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;21.10796941366008;BE;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;7425.055768002117;BE;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.02409139332941973;BE;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.02409139332941973;BE;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.1126511430168225;BE;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;15.16638768639082;BE;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;5.471882102746063;BE;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -253,7 +253,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.04597178688081737;BR;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;0.01556128078359922;BR;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;0.008472698295445124;BR;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;26639.32100343524;BR;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.007067400125124807;BR;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.007067400125124807;BR;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.01034391636016306;BR;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;20679.42555038711;BR;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;1.276915962254628;BR;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -325,7 +325,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1374984720024937;CA;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;0.7395010781855403;CA;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;4.838618604626473;CA;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;17676.40453898918;CA;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.006753292740747407;CA;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.006753292740747407;CA;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.174747348928269;CA;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;27.80523836752695;CA;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;3.922440164601011;CA;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -397,7 +397,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.06632908858114356;CL;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;2.432867167678674;CL;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;43.26335189606122;CL;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;9906.846261171582;CL;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.07823040904383903;CL;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.07823040904383903;CL;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.01595855054916443;CL;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;32580.38770039528;CL;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;35.76936238823202;CL;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -469,7 +469,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1010019792479862;CN;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;0.03156457019904722;CN;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;28.95651418754138;CN;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;31723.15067881987;CN;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.06011832256489713;CN;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.06011832256489713;CN;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;2.355293166896712e-06;CN;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;195.7865974331485;CN;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;5.688704005879154;CN;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -541,7 +541,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.117626295414036;CD;7c337428-fb1
 Raw;in ground;Nickel;Nickel;#c49c94;0.03614150927653887;CD;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;0.0;CD;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;0.0;CD;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;2.331648192333363e-05;CD;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;2.331648192333363e-05;CD;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.2285562348391915;CD;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;0.0;CD;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;1.491331469344561;CD;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -613,7 +613,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1026348623907588;FR;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;3.224322180260516;FR;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;19.07477839513316;FR;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;9672.07974103762;FR;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.1023878702719896;FR;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.1023878702719896;FR;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.06889293438066835;FR;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;11.45473703043353;FR;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;3.746367088749988;FR;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -685,7 +685,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1306617111601261;DE;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;1.065460874046312;DE;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;26.68053249501946;DE;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;21202.39078265011;DE;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.06851675051115882;DE;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.06851675051115882;DE;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.03839352577887102;DE;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;38.08068549664465;DE;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;6.704075488700389;DE;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -757,7 +757,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1958431027834172;IT;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;34.24619667601231;IT;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;21.87474346059219;IT;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;24320.01137124912;IT;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.09442658316623842;IT;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.09442658316623842;IT;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.07313229213315733;IT;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;239.2380040245998;IT;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;9.643004775425293;IT;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -829,7 +829,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;9.59554260169044e-05;MZ;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.0;MZ;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;0.0;MZ;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;0.0;MZ;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;6.217047163315821e-05;MZ;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;6.217047163315821e-05;MZ;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.05011786225304696;MZ;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;0.0;MZ;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;0.8266667445517075;MZ;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -901,7 +901,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1503407780460584;NL;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;0.6806062885721922;NL;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;30.53206086819412;NL;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;12362.22475077675;NL;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.07919515966821342;NL;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.07919515966821342;NL;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.1044900311272528;NL;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;9.53537624204253;NL;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;4.398395267258607;NL;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -973,7 +973,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.003405698622179738;NZ;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.0;NZ;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;47.27428327382189;NZ;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;8018.814410345261;NZ;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.02503990842019865;NZ;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.02503990842019865;NZ;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.1045919395835952;NZ;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;167.1032703768754;NZ;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;6.859133514955691;NZ;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1045,7 +1045,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.03357827979679316;NO;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;0.8129499239087287;NO;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;22.23735707911594;NO;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;21203.46202440953;NO;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.0009784574511184467;NO;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.0009784574511184467;NO;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.07287445952915342;NO;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;2413.41861918836;NO;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;11.66779300888357;NO;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1117,7 +1117,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.08730374425613217;IN;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;0.1392847543700582;IN;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;19.01915398706883;IN;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;18545.23151178187;IN;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.08556539466727422;IN;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.08556539466727422;IN;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.0679987890178863;IN;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;920.652114947455;IN;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.892385795559532;IN;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1189,7 +1189,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.02532753048769469;ZA;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;0.01893813491319961;ZA;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;26.76654730292978;ZA;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;52.11717876073141;ZA;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.104239446907239;ZA;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.104239446907239;ZA;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;4.831289019059347e-05;ZA;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;113.8004641508938;ZA;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;32.7134559746839;ZA;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1261,7 +1261,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1300951851284962;ZW;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;0.0;ZW;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;0.0;ZW;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;0.8574042131471354;ZW;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.03666476015392465;ZW;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.03666476015392465;ZW;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.0001477600318078342;ZW;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;0.1574380873516799;ZW;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;200.4073470460768;ZW;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1333,7 +1333,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.2377175317713653;CH;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;1.021925171423326;CH;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;7.785365690063752;CH;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;13674.94299606919;CH;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.1051164331018848;CH;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.1051164331018848;CH;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.02646063906704017;CH;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;1481.89026833572;CH;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;16.60849341033065;CH;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1405,7 +1405,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1309860975090198;GB;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;4.277980556119678;GB;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;35.42890189192374;GB;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;23586.07775722908;GB;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.04117279099181003;GB;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.04117279099181003;GB;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.122930402045405;GB;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;518.9049663536716;GB;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;13.94654310991001;GB;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1477,7 +1477,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1128955596351896;US;7c337428-fb
 Raw;in ground;Nickel;Nickel;#c49c94;0.003792738585211983;US;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;26.32309905044533;US;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;24602.45529992817;US;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.01641522252926762;US;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.01641522252926762;US;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;7.434509055295242e-05;US;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;135.253829105466;US;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.516617224211171;US;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1549,7 +1549,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.01261161627178024;NAFTA;7c33742
 Raw;in ground;Nickel;Nickel;#c49c94;0.3960268356502983;NAFTA;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;10.90216159149467;NAFTA;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;19634.26132579438;NAFTA;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.005499375202401117;NAFTA;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.005499375202401117;NAFTA;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;4.930590922290202e-05;NAFTA;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;40.43551687221771;NAFTA;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.482399509571767;NAFTA;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1621,7 +1621,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.02050012386259992;NPCC;7c337428
 Raw;in ground;Nickel;Nickel;#c49c94;0.3960023504082004;NPCC;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;12.11017720517984;NPCC;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;19687.55063304155;NPCC;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.007851128783229026;NPCC;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.007851128783229026;NPCC;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;7.105323182020367e-05;NPCC;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;48.86377379799369;NPCC;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.446615722828737;NPCC;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1693,7 +1693,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.0314578224026992;RAF;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;0.005257598861345523;RAF;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;14.21624980468623;RAF;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;86.31973820552041;RAF;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.002258685172570683;RAF;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.002258685172570683;RAF;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;6.905282701910144e-06;RAF;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;3.294647876012916;RAF;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;1.475613595521895;RAF;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1765,7 +1765,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.03513288510459388;RAS;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.005331956061584321;RAS;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;26.20033022573737;RAS;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;9401.695635820814;RAS;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.006049519853223093;RAS;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.006049519853223093;RAS;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.006568720917299622;RAS;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;42.85342924681283;RAS;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.05123948986477;RAS;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1837,7 +1837,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.08936754781842521;RER;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.09872866702102996;RER;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;24.06382954377524;RER;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;7070.905861823939;RER;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.02639939636755997;RER;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.02639939636755997;RER;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.0197012229908379;RER;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;55.24711944432347;RER;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;3.727520713794192;RER;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1909,7 +1909,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.06547182590436951;RLA;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.01117196921839431;RLA;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;0.2872144472292551;RLA;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;23907.40606466114;RLA;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.003467529861088123;RLA;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.003467529861088123;RLA;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.007764635653243993;RLA;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;4.700419040113062;RLA;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.49620668694243;RLA;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -1981,7 +1981,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.007492577312598103;RME;7c337428
 Raw;in ground;Nickel;Nickel;#c49c94;2.809955046089346;RME;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;17.24832939909873;RME;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;8293.352808321615;RME;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.0003804709137538626;RME;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.0003804709137538626;RME;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.004020848028194575;RME;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;77.97627614601282;RME;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;10.72968455494588;RME;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -2053,7 +2053,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.02050012386259992;RNA;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.3960023504082004;RNA;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;12.11017720517984;RNA;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;19687.55063304155;RNA;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.007851130822993914;RNA;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.007851130822993914;RNA;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;7.106314428417705e-05;RNA;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;48.86016444392413;RNA;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.446615722828737;RNA;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -2125,7 +2125,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.08718403188977551;SAS;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;6.051284905736062;SAS;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;19.28153096381846;SAS;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;18531.32034554929;SAS;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.0517814272440011;SAS;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.0517814272440011;SAS;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.06689729311416127;SAS;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;915.7290027785846;SAS;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;3.004420443863794;SAS;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -2197,7 +2197,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1491428398396952;UCTE;7c337428-
 Raw;in ground;Nickel;Nickel;#c49c94;0.06552026862303362;UCTE;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;24.69995879948346;UCTE;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;14525.12738085199;UCTE;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.0894689064035199;UCTE;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.0894689064035199;UCTE;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.06569416869173174;UCTE;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;39.9051720042298;UCTE;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;4.166479292511749;UCTE;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -2269,7 +2269,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.02050012386259992;WECC;7c337428
 Raw;in ground;Nickel;Nickel;#c49c94;0.3960023504082004;WECC;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;12.11017720517984;WECC;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;19687.55063304155;WECC;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.007851128783229026;WECC;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.007851128783229026;WECC;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;7.105323182020367e-05;WECC;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;48.86377379799369;WECC;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;2.446615722828737;WECC;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
@@ -2341,7 +2341,7 @@ Raw;in ground;Gas, natural;Natural gas;#FFE680;0.1162232981156571;WEU;7c337428-f
 Raw;in ground;Nickel;Nickel;#c49c94;1.02107060451213;WEU;974213ef-1ba0-40e5-bc7b-52ef099e9e09;7440-02-0;kg Cu eq/kg
 Raw;in ground;Niobium;Niobium;#bcbd22;28.23242154852914;WEU;8de8befc-efa2-5d07-a58b-b29ea97a3f41;7440-03-1;kg Cu eq/kg
 Raw;in ground;Palladium;Palladium;#f7b6d2;11739.79483684989;WEU;edc69c63-a776-4dbf-acbf-e0368914980a;7440-05-3;kg Cu eq/kg
-Raw;in ground;;;;0.08688757859024997;WEU;;;kg Cu eq/kg
+Raw;in ground;Oil, crude;Crude oil;#FFB570;0.08688757859024997;WEU;88d06db9-59a1-4719-9174-afeb1fa4026a;;kg Cu eq/kg
 Raw;in ground;Phosphorus;Phosphate;#c7c7c7;0.0821217384816845;WEU;483ae3c5-4eb0-46e4-b811-a72ad391716b;;kg Cu eq/kg
 Raw;in ground;Platinum;Platinum;#bcbd22;49.23665185759955;WEU;d13b2665-505d-49e2-8edd-dc966b0342af;7440-06-4;kg Cu eq/kg
 Raw;in ground;Cerium;Rare earth;#1f77b4;4.212264015841137;WEU;4057f8b4-f20a-59c9-9bb7-fdeaf5ad106d;;kg Cu eq/kg
