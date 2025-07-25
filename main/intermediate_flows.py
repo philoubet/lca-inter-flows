@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.colors as mcolors
 import sys
+from edges.edgelcia import EdgeLCIA
 
 # Configure logging
 # logging.basicConfig(level=logging.INFO)
@@ -16,11 +17,11 @@ import sys
 CONFIG = {
     "Country": "FR",
     "project": "intermediate_flows",
-    "databases": ["ecoinvent-3.10.1-cutoff"],
+    "databases": ["ecoinvent-3.10-cutoff"],
     "matched_csv": "processed_b_public_with_percentages_AK.csv",
     "risk_csv": "model_csv_geopolrisk_with_colors_corrected_AK2.csv",
     "filter_keyword": "market for battery",  # "market for battery,"
-    "sample_size": 10,
+    "sample_size": 100,
     "fossil_resources": [
         "Coal, brown",
         "Coal, hard",
@@ -189,6 +190,39 @@ def compute_lca_flows(db_name, activities):
             )
 
         records.append((func_str, df_i, df_e))
+
+    return records
+
+
+from edges.edgelcia import EdgeLCIA
+
+
+def compute_lca_flows_edge(
+    db_name, activities, method=("GeoPolRisk_paired", "2024"), weight="population"
+):
+    records = []
+    for act in activities:
+        func_str = (
+            f"{act['name']} | {act.get('reference product','')} | {act['location']}"
+        )
+
+        lca = EdgeLCIA(
+            demand={act.key: 1},
+            method=method,
+            weight=weight,
+        )
+        lca.lci()
+        lca.map_exchanges()
+        lca.map_aggregate_locations()
+        lca.map_dynamic_locations()
+        lca.map_remaining_locations_to_global()
+        lca.evaluate_cfs()
+        lca.lcia()
+
+        # Directly get the supplier–consumer exchange table
+        df = lca.generate_cf_table()
+
+        records.append((func_str, df))
 
     return records
 
